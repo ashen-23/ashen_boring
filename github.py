@@ -11,6 +11,7 @@ def index():
 
 @app.route("/github/contribute")
 def githubContribute():
+    print("running...")
     result = runShell("./run.sh")
     print(result)
     return jsonify({"code": 0})
