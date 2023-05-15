@@ -1,15 +1,18 @@
 from flask import Flask, render_template, jsonify
 import os, subprocess
-import schedule
+from flask_apscheduler import APScheduler
+
 
 app = Flask(__name__)
+scheduler = APScheduler()
+scheduler.init_app(app)
 
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-@app.route("/github/contribute")
+@scheduler.task('interval', id='github_job', minutes=1)
 def githubContribute():
     print("running...")
     result = runShell("./run.sh")
@@ -28,13 +31,7 @@ def runShell(script):
             result.append(res)
         return "\n".join(result)
     
-schedule.every(3).minutes.do(githubContribute)
-
 
 if __name__ == '__main__':
+    scheduler.start()
     app.run(host='0.0.0.0', port=8801, debug=True)
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
-
-
