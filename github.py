@@ -13,7 +13,7 @@ with app.app_context():
 def index():
     return render_template('index.html')
 
-@scheduler.task('interval', id='github_job', minutes=1)
+@scheduler.task('interval', id='github_job', hours=8)
 def githubContribute():
     print("running...")
     result = runShell("./run.sh")
