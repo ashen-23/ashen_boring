@@ -1,0 +1,12 @@
+nohup: 忽略输入
+ * Serving Flask app 'github'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8801
+ * Running on http://172.26.23.117:8801
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 469-473-216
+223.104.40.56 - - [15/May/2023 11:21:31] "GET / HTTP/1.1" 200 -

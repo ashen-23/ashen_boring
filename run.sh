@@ -1,8 +1,8 @@
 
 cd /root/Apps/ashen_boring
 
-echo "$(date) 1\r" > README.md
+echo "$(date)\r" >> README.md
 git add .
-git commit -m "$(date) 1"
+git commit -m "$(date)"
 
 git push
