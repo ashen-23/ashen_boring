@@ -1,5 +1,7 @@
 from flask import Flask, render_template, jsonify
 import os, subprocess
+import schedule
+
 app = Flask(__name__)
 
 
@@ -25,9 +27,13 @@ def runShell(script):
             result.append(res)
         return "\n".join(result)
     
+schedule.every(3).minutes.do(githubContribute)
 
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8801, debug=True)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
 
 
