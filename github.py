@@ -4,8 +4,9 @@ from flask_apscheduler import APScheduler
 
 
 app = Flask(__name__)
-scheduler = APScheduler()
-scheduler.init_app(app)
+with app.app_context():
+    scheduler = APScheduler()
+    scheduler.init_app(app)
 
 
 @app.route('/')
