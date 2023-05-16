@@ -13,6 +13,10 @@ with app.app_context():
 def index():
     return render_template('index.html')
 
+@app.route('/github')
+def github():
+   return githubContribute()
+
 @scheduler.task('interval', id='github_job', hours=8)
 def githubContribute():
     print("running...")
