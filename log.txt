@@ -1,15 +1,5 @@
 nohup: 忽略输入
  * Serving Flask app 'github'
  * Debug mode: on
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:8801
- * Running on http://172.26.23.117:8801
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 469-473-216
-remote: Resolving deltas:   0% (0/3)        remote: Resolving deltas:  33% (1/3)        remote: Resolving deltas:  66% (2/3)        remote: Resolving deltas: 100% (3/3)        remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
-To github.com:ashen-23/ashen_boring.git
-   beb66fb..25d7818  main -> main
-INFO:werkzeug:1.202.165.115 - - [16/May/2023 17:56:58] "GET /github HTTP/1.1" 200 -
+Address already in use
+Port 8801 is in use by another program. Either identify and stop that program, or start the server with a different port.
