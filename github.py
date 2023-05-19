@@ -17,7 +17,7 @@ def index():
 def github():
    return githubContribute()
 
-@scheduler.task('interval', id='github_job', hours=8)
+@scheduler.task('interval', id='github_job', hours=5)
 def githubContribute():
     print("running...")
     result = runShell("./run.sh")
