@@ -1048,3 +1048,71 @@ This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 INFO:werkzeug:35.203.211.155 - - [25/May/2023 01:50:36] "GET / HTTP/1.1" 200 -
+remote: Resolving deltas:   0% (0/5)        remote: Resolving deltas:  20% (1/5)        remote: Resolving deltas:  40% (2/5)        remote: Resolving deltas:  60% (3/5)        remote: Resolving deltas:  80% (4/5)        remote: Resolving deltas: 100% (5/5)        remote: Resolving deltas: 100% (5/5), completed with 3 local objects.        
+remote: Resolving deltas:   0% (0/7)        remote: Resolving deltas:  14% (1/7)        remote: Resolving deltas:  28% (2/7)        remote: Resolving deltas:  42% (3/7)        remote: Resolving deltas:  57% (4/7)        remote: Resolving deltas:  71% (5/7)        remote: Resolving deltas:  85% (6/7)        remote: Resolving deltas: 100% (7/7)        remote: Resolving deltas: 100% (7/7), completed with 3 local objects.        
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at b76aa56e6613b82b45f919b307ef87a054c7af74 but expected c03b009a0a67d4918111785448e3e1874dbcbeae)
+error: 推送一些引用到 'git@github.com:ashen-23/ashen_boring.git' 失败
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-05-25 09:18:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   c03b009..b76aa56  main -> main
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-05-25 09:18:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+ERROR:werkzeug:111.7.96.147 - - [25/May/2023 08:12:07] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:111.7.96.147 - - [25/May/2023 08:12:07] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:111.7.96.147 - - [25/May/2023 08:12:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:175.6.99.191 - - [25/May/2023 08:15:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:175.6.99.191 - - [25/May/2023 08:15:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:106.225.211.177 - - [25/May/2023 08:16:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:106.225.211.177 - - [25/May/2023 08:16:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:175.6.125.133 - - [25/May/2023 08:16:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:175.6.125.133 - - [25/May/2023 08:16:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:106.227.33.134 - - [25/May/2023 08:16:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:106.227.33.134 - - [25/May/2023 08:16:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:175.6.77.12 - - [25/May/2023 08:16:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:175.6.77.12 - - [25/May/2023 08:16:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:175.6.143.32 - - [25/May/2023 08:16:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:175.6.143.32 - - [25/May/2023 08:16:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:125.124.60.119 - - [25/May/2023 08:16:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:125.124.60.119 - - [25/May/2023 08:16:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:125.124.7.0 - - [25/May/2023 08:16:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:125.124.7.0 - - [25/May/2023 08:16:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:106.225.213.0 - - [25/May/2023 08:16:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:106.225.213.0 - - [25/May/2023 08:16:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:106.225.155.68 - - [25/May/2023 08:17:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:106.225.155.68 - - [25/May/2023 08:17:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:175.6.112.104 - - [25/May/2023 08:17:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:175.6.112.104 - - [25/May/2023 08:17:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:175.6.138.11 - - [25/May/2023 08:17:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:175.6.138.11 - - [25/May/2023 08:17:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
