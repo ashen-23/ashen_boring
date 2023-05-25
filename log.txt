@@ -1116,3 +1116,80 @@ INFO:werkzeug:175.6.112.104 - - [25/May/2023 08:17:13] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:175.6.112.104 - - [25/May/2023 08:17:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug:175.6.138.11 - - [25/May/2023 08:17:33] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:175.6.138.11 - - [25/May/2023 08:17:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+remote: Resolving deltas:   0% (0/5)        remote: Resolving deltas:  20% (1/5)        remote: Resolving deltas:  40% (2/5)        remote: Resolving deltas:  60% (3/5)        remote: Resolving deltas:  80% (4/5)        remote: Resolving deltas: 100% (5/5)        remote: Resolving deltas: 100% (5/5), completed with 3 local objects.        
+remote: Resolving deltas:   0% (0/7)        remote: Resolving deltas:  14% (1/7)        remote: Resolving deltas:  28% (2/7)        remote: Resolving deltas:  42% (3/7)        remote: Resolving deltas:  57% (4/7)        remote: Resolving deltas:  71% (5/7)        remote: Resolving deltas:  85% (6/7)        remote: Resolving deltas: 100% (7/7)        remote: Resolving deltas: 100% (7/7), completed with 3 local objects.        
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 4e5d9ba881d443bf429d9364943cd3acd036e334 but expected b76aa56e6613b82b45f919b307ef87a054c7af74)
+error: 推送一些引用到 'git@github.com:ashen-23/ashen_boring.git' 失败
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-05-25 14:18:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   b76aa56..4e5d9ba  main -> main
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-05-25 14:18:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+INFO:werkzeug:47.92.67.105 - - [25/May/2023 12:15:10] "GET http://i.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:8.142.31.72 - - [25/May/2023 12:15:10] "GET http://i.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.73.109 - - [25/May/2023 12:15:10] "[33mGET http://i.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.37.1 - - [25/May/2023 12:24:33] "GET http://docker.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.78.102 - - [25/May/2023 12:24:34] "GET http://docker.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.78.77 - - [25/May/2023 12:24:34] "[33mGET http://docker.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.5.239 - - [25/May/2023 12:25:46] "GET http://qb.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.72.15 - - [25/May/2023 12:25:47] "GET http://qb.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.33.204 - - [25/May/2023 12:25:47] "[33mGET http://qb.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.72.15 - - [25/May/2023 12:30:34] "GET http://iostools.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.79.156 - - [25/May/2023 12:30:34] "GET http://iostools.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.30.57 - - [25/May/2023 12:30:34] "[33mGET http://iostools.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.73.218 - - [25/May/2023 12:32:06] "GET http://tool.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.30.57 - - [25/May/2023 12:32:07] "GET http://tool.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.67.105 - - [25/May/2023 12:32:08] "[33mGET http://tool.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:8.142.87.162 - - [25/May/2023 12:32:21] "GET http://nas.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.72.15 - - [25/May/2023 12:32:22] "GET http://nas.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.70.66 - - [25/May/2023 12:32:22] "[33mGET http://nas.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.78.77 - - [25/May/2023 12:32:29] "GET http://proxy.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.72.15 - - [25/May/2023 12:32:30] "GET http://proxy.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.5.239 - - [25/May/2023 12:32:30] "[33mGET http://proxy.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.68.55 - - [25/May/2023 12:33:04] "GET http://doc.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.30.57 - - [25/May/2023 12:33:04] "GET http://doc.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.70.66 - - [25/May/2023 12:33:04] "[33mGET http://doc.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:8.142.87.162 - - [25/May/2023 12:33:36] "GET http://gelly.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.31.57 - - [25/May/2023 12:33:36] "GET http://gelly.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.29.136 - - [25/May/2023 12:33:36] "[33mGET http://gelly.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.33.185 - - [25/May/2023 12:35:20] "GET http://ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.36.178 - - [25/May/2023 12:35:20] "GET http://ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.79.71 - - [25/May/2023 12:35:20] "[33mGET http://ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.32.64 - - [25/May/2023 12:41:42] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.77.114 - - [25/May/2023 12:41:42] "GET http://39.100.66.203/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.77.114 - - [25/May/2023 12:41:42] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.79.71 - - [25/May/2023 12:42:04] "GET http://jp.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.30.214 - - [25/May/2023 12:42:04] "GET http://jp.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.33.204 - - [25/May/2023 12:42:04] "[33mGET http://jp.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
