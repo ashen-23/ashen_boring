@@ -1765,3 +1765,47 @@ ERROR:werkzeug:39.103.139.251 - - [26/May/2023 21:37:27] code 400, message Bad r
 INFO:werkzeug:39.103.139.251 - - [26/May/2023 21:37:27] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x0f\x89_\x1b\x8bò¢\x7fÀÓÍÓö@ä\x1dÏ\x06ñp\x8fkKÌ"\x8b\x0cwÚKw\x86 ¾Rg\x88\x8aòdµ Â`\x06¬V\x03/\x09²\x1cZÉ\x17ùlßY~ªÜíP"\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À[0m" HTTPStatus.BAD_REQUEST -
 ERROR:werkzeug:39.103.139.251 - - [26/May/2023 21:37:52] code 400, message Bad HTTP/0.9 request type ('\x80\x00\x00(G3]H\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86')
 INFO:werkzeug:39.103.139.251 - - [26/May/2023 21:37:52] "[35m[1m\x80\x00\x00(G3]H\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+remote: Resolving deltas:   0% (0/5)        remote: Resolving deltas:  20% (1/5)        remote: Resolving deltas:  40% (2/5)        remote: Resolving deltas:  60% (3/5)        remote: Resolving deltas:  80% (4/5)        remote: Resolving deltas: 100% (5/5)        remote: Resolving deltas: 100% (5/5), completed with 3 local objects.        
+remote: Resolving deltas:   0% (0/7)        remote: Resolving deltas:  14% (1/7)        remote: Resolving deltas:  28% (2/7)        remote: Resolving deltas:  42% (3/7)        remote: Resolving deltas:  57% (4/7)        remote: Resolving deltas:  71% (5/7)        remote: Resolving deltas:  85% (6/7)        remote: Resolving deltas: 100% (7/7)        remote: Resolving deltas: 100% (7/7), completed with 3 local objects.        
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 1d43e3050d82d30a42d56fb337445b2197420174 but expected 388bd2f6564e8c554bb3f367e5853cdabc765abe)
+error: 推送一些引用到 'git@github.com:ashen-23/ashen_boring.git' 失败
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-05-27 06:18:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   388bd2f..1d43e30  main -> main
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-05-27 06:18:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+INFO:werkzeug:162.216.149.165 - - [27/May/2023 03:28:39] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:161.189.134.11 - - [27/May/2023 05:23:01] code 400, message Bad request syntax ('333766643833656338616434363333643963363962386536653538383937393235613033653338636434')
+INFO:werkzeug:161.189.134.11 - - [27/May/2023 05:23:01] "[35m[1m333766643833656338616434363333643963363962386536653538383937393235613033653338636434[0m" HTTPStatus.BAD_REQUEST -
