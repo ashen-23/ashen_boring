@@ -3929,3 +3929,48 @@ This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 INFO:werkzeug:87.236.176.120 - - [04/Jun/2023 09:42:58] "GET / HTTP/1.1" 200 -
+remote: Resolving deltas:   0% (0/7)        remote: Resolving deltas:  14% (1/7)        remote: Resolving deltas:  28% (2/7)        remote: Resolving deltas:  42% (3/7)        remote: Resolving deltas:  57% (4/7)        remote: Resolving deltas:  71% (5/7)        remote: Resolving deltas:  85% (6/7)        remote: Resolving deltas: 100% (7/7)        remote: Resolving deltas: 100% (7/7), completed with 3 local objects.        
+remote: Resolving deltas:   0% (0/5)        remote: Resolving deltas:  20% (1/5)        remote: Resolving deltas:  40% (2/5)        remote: Resolving deltas:  60% (3/5)        remote: Resolving deltas:  80% (4/5)        remote: Resolving deltas: 100% (5/5)        remote: Resolving deltas: 100% (5/5), completed with 3 local objects.        
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 532dd26e91db37894a890a23f8f377e018e0a3a9 but expected 8da870f75d749f83433557313f4cdea076a32aa9)
+error: 推送一些引用到 'git@github.com:ashen-23/ashen_boring.git' 失败
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-04 19:18:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   8da870f..532dd26  main -> main
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-04 19:18:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+INFO:werkzeug:34.76.158.233 - - [04/Jun/2023 14:23:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:47.92.68.55 - - [04/Jun/2023 16:41:30] "GET http://www.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:8.142.87.162 - - [04/Jun/2023 16:41:31] "GET http://www.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.79.71 - - [04/Jun/2023 16:41:31] "[33mGET http://www.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
