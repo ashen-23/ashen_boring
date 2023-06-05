@@ -4421,3 +4421,291 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+Warning: Permanently added the ECDSA host key for IP address '192.30.255.113' to the list of known hosts.
+Warning: Permanently added the ECDSA host key for IP address '192.30.255.112' to the list of known hosts.
+remote: Resolving deltas:   0% (0/7)        remote: Resolving deltas:  14% (1/7)        remote: Resolving deltas:  28% (2/7)        remote: Resolving deltas:  42% (3/7)        remote: Resolving deltas:  57% (4/7)        remote: Resolving deltas:  71% (5/7)        remote: Resolving deltas:  85% (6/7)        remote: Resolving deltas: 100% (7/7)        remote: Resolving deltas: 100% (7/7), completed with 3 local objects.        
+To github.com:ashen-23/ashen_boring.git
+   d30d3ee..29c7f38  main -> main
+running...
+[main a0dc8ee] 2023年 05月 19日 星期五 23:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d1614b9] 2023年 05月 20日 星期六 04:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a299741] 2023年 05月 20日 星期六 09:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1f24191] 2023年 05月 20日 星期六 14:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c47c3a4] 2023年 05月 20日 星期六 19:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e52dc55] 2023年 05月 21日 星期日 00:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main adfe65f] 2023年 05月 21日 星期日 05:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0a15f73] 2023年 05月 21日 星期日 10:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 82e1ce9] 2023年 05月 21日 星期日 15:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 49a3594] 2023年 05月 21日 星期日 20:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8165004] 2023年 05月 22日 星期一 01:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4ccc425] 2023年 05月 22日 星期一 06:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6908e39] 2023年 05月 22日 星期一 11:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7928940] 2023年 05月 22日 星期一 16:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8dffa02] 2023年 05月 22日 星期一 21:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c719d61] 2023年 05月 23日 星期二 02:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5ea1b48] 2023年 05月 23日 星期二 07:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9303119] 2023年 05月 23日 星期二 12:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d46564b] 2023年 05月 23日 星期二 17:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5a3d08b] 2023年 05月 23日 星期二 22:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a93bdc1] 2023年 05月 24日 星期三 03:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main cdb579a] 2023年 05月 24日 星期三 08:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 00dea89] 2023年 05月 24日 星期三 13:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b2f4f4d] 2023年 05月 24日 星期三 18:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a998774] 2023年 05月 24日 星期三 23:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6c31949] 2023年 05月 25日 星期四 04:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a69aea7] 2023年 05月 25日 星期四 09:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 686b103] 2023年 05月 25日 星期四 14:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e5d35d5] 2023年 05月 25日 星期四 19:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2e5f573] 2023年 05月 26日 星期五 00:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 70c68bd] 2023年 05月 26日 星期五 05:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0671490] 2023年 05月 26日 星期五 10:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1127960] 2023年 05月 26日 星期五 15:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8538735] 2023年 05月 26日 星期五 20:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9b62c47] 2023年 05月 27日 星期六 01:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7728986] 2023年 05月 27日 星期六 06:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 67c46ff] 2023年 05月 27日 星期六 11:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b4ab718] 2023年 05月 27日 星期六 16:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 602291d] 2023年 05月 27日 星期六 21:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ee79509] 2023年 05月 28日 星期日 02:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2070823] 2023年 05月 28日 星期日 07:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main fbd1b3c] 2023年 05月 28日 星期日 12:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f89d29d] 2023年 05月 28日 星期日 17:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 20124aa] 2023年 05月 28日 星期日 22:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 178f75d] 2023年 05月 29日 星期一 03:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a4a76f6] 2023年 05月 29日 星期一 08:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 782efa7] 2023年 05月 29日 星期一 13:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4c9a582] 2023年 05月 29日 星期一 18:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main bcd311c] 2023年 05月 29日 星期一 23:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8a18368] 2023年 05月 30日 星期二 04:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6f46f4f] 2023年 05月 30日 星期二 09:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a70405a] 2023年 05月 30日 星期二 14:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3d2491c] 2023年 05月 30日 星期二 19:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 65e3bb5] 2023年 05月 31日 星期三 00:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7224f29] 2023年 05月 31日 星期三 05:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 78d13b6] 2023年 05月 31日 星期三 10:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 54d9b7b] 2023年 05月 31日 星期三 15:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 891ccce] 2023年 05月 31日 星期三 20:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main dca04a6] 2023年 06月 01日 星期四 01:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 128b323] 2023年 06月 01日 星期四 06:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c54da84] 2023年 06月 01日 星期四 11:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main fede17f] 2023年 06月 01日 星期四 16:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a524427] 2023年 06月 01日 星期四 21:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main cf14d9e] 2023年 06月 02日 星期五 02:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main daeea6e] 2023年 06月 02日 星期五 07:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5f5c855] 2023年 06月 02日 星期五 12:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 55812d9] 2023年 06月 02日 星期五 17:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f54f46e] 2023年 06月 02日 星期五 22:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5b96d6f] 2023年 06月 03日 星期六 03:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2c10947] 2023年 06月 03日 星期六 08:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 47092d4] 2023年 06月 03日 星期六 13:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6d5d30a] 2023年 06月 03日 星期六 18:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8fffa38] 2023年 06月 03日 星期六 23:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d99f5f3] 2023年 06月 04日 星期日 04:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d259d50] 2023年 06月 04日 星期日 09:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b559d61] 2023年 06月 04日 星期日 14:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 944ddd6] 2023年 06月 04日 星期日 19:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 089811a] 2023年 06月 05日 星期一 00:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 80e5c8e] 2023年 06月 05日 星期一 05:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d888463] 2023年 06月 05日 星期一 10:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main baafac6] 2023年 06月 05日 星期一 15:18:49 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 29c7f38] 2023年 06月 05日 星期一 20:18:49 CST
+ 1 file changed, 1 insertion(+)ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-06 01:18:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+remote: Resolving deltas:   0% (0/5)        remote: Resolving deltas:  20% (1/5)        remote: Resolving deltas:  40% (2/5)        remote: Resolving deltas:  60% (3/5)        remote: Resolving deltas:  80% (4/5)        remote: Resolving deltas: 100% (5/5)        remote: Resolving deltas: 100% (5/5), completed with 3 local objects.        
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 29c7f38139d73468af971183b4b9ec67232ac4ee but expected d30d3ee0c4bbdcde95969a126060576eff8b4fb4)
+error: 推送一些引用到 'git@github.com:ashen-23/ashen_boring.git' 失败
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-06 01:18:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
