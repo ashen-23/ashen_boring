@@ -4754,3 +4754,49 @@ INFO:werkzeug:35.203.211.218 - - [06/Jun/2023 02:19:14] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:47.92.31.57 - - [06/Jun/2023 04:55:15] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
 INFO:werkzeug:47.92.31.143 - - [06/Jun/2023 04:55:15] "GET http://39.100.66.203/ HTTP/1.1" 200 -
 INFO:werkzeug:47.92.33.185 - - [06/Jun/2023 04:55:15] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
+remote: Resolving deltas:   0% (0/5)        remote: Resolving deltas:  20% (1/5)        remote: Resolving deltas:  40% (2/5)        remote: Resolving deltas:  60% (3/5)        remote: Resolving deltas:  80% (4/5)        remote: Resolving deltas: 100% (5/5)        remote: Resolving deltas: 100% (5/5), completed with 3 local objects.        
+remote: Resolving deltas:   0% (0/7)        remote: Resolving deltas:  14% (1/7)        remote: Resolving deltas:  28% (2/7)        remote: Resolving deltas:  42% (3/7)        remote: Resolving deltas:  57% (4/7)        remote: Resolving deltas:  71% (5/7)        remote: Resolving deltas:  85% (6/7)        remote: Resolving deltas: 100% (7/7)        remote: Resolving deltas: 100% (7/7), completed with 3 local objects.        
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at e349b041fdabf8035288799b012619a1dfccab86 but expected 23fe0926747454767257f3e0bcfab878c09e496b)
+error: 推送一些引用到 'git@github.com:ashen-23/ashen_boring.git' 失败
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-06 11:18:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   23fe092..e349b04  main -> main
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-06 11:18:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+ERROR:werkzeug:47.92.79.156 - - [06/Jun/2023 06:59:33] code 400, message Bad request syntax ("\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03i\x02çí¨F2\x8eVåJõ(\x80ö\x90[r\x1b6vE\x99AupÙÎÆ\x18»Ï\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+INFO:werkzeug:47.92.79.156 - - [06/Jun/2023 06:59:33] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03i\x02çí¨F2\x8eVåJõ(\x80ö\x90[r\x1b6vE\x99AupÙÎÆ\x18»Ï\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:47.92.78.126 - - [06/Jun/2023 07:38:23] code 400, message Bad request version ("Cz²\x19æÎÚI¤ºX©Ý¥)ü6Á,\x9b·®Y\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+INFO:werkzeug:47.92.78.126 - - [06/Jun/2023 07:38:23] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03V xð!¸Þ\x94\x1dCz²\x19æÎÚI¤ºX©Ý¥)ü6Á,\x9b·®Y\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:87.236.176.237 - - [06/Jun/2023 09:00:26] "GET / HTTP/1.1" 200 -
