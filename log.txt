@@ -5589,3 +5589,47 @@ INFO:werkzeug:47.92.32.64 - - [10/Jun/2023 05:01:36] "[33mGET http://39.100.66.
 INFO:werkzeug:35.203.211.184 - - [10/Jun/2023 05:04:58] "GET / HTTP/1.1" 200 -
 ERROR:werkzeug:47.92.33.185 - - [10/Jun/2023 05:16:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03Eãm7ç\x01')
 INFO:werkzeug:47.92.33.185 - - [10/Jun/2023 05:16:58] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03Eãm7ç\x01\x1fú\x03ð\x93Ì\x8d®ÀÄt[0m" HTTPStatus.BAD_REQUEST -
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d5e4088d392111829bee577b6fe7b2f505634c04 but expected e9290c05d3b8e5997bfe8aedfd27a0c8f860a7ae)
+error: 推送一些引用到 'git@github.com:ashen-23/ashen_boring.git' 失败
+To github.com:ashen-23/ashen_boring.git
+   e9290c0..d5e4088  main -> main
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-10 10:18:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-10 10:18:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+ERROR:werkzeug:47.92.72.15 - - [10/Jun/2023 05:52:40] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03»8\x8f\x831\x91Jô\x16£;\\\x8db2ø6¿^¥\x02nñÁ¨³@Ô3\x16\x8b')
+INFO:werkzeug:47.92.72.15 - - [10/Jun/2023 05:52:40] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03»8\x8f\x831\x91Jô\x16£;\\\x8db2ø6¿^¥\x02nñÁ¨³@Ô3\x16\x8b\x85\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:47.92.78.77 - - [10/Jun/2023 06:54:44] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.70.66 - - [10/Jun/2023 06:54:44] "GET http://39.100.66.203/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.79.71 - - [10/Jun/2023 06:54:44] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
