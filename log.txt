@@ -7048,3 +7048,51 @@ INFO:werkzeug:47.92.33.204 - - [16/Jun/2023 16:02:57] "[33mGET http://qb.ashen2
 INFO:werkzeug:47.92.73.109 - - [16/Jun/2023 16:04:51] "GET http://iostools.site:8801/ HTTP/1.1" 200 -
 INFO:werkzeug:47.92.78.102 - - [16/Jun/2023 16:04:51] "GET http://iostools.site/ HTTP/1.1" 200 -
 INFO:werkzeug:47.92.30.57 - - [16/Jun/2023 16:04:51] "[33mGET http://iostools.site/favicon.ico HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   43dc3ac..d8dff48  main -> main
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-16 21:18:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d8dff48cac08cdb3a695aa4469f3fefe270129b8 but expected 43dc3ac34a817a00835cc83e5ed207f6abfa1c76)
+error: 推送一些引用到 'git@github.com:ashen-23/ashen_boring.git' 失败
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-16 21:18:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+INFO:werkzeug:47.92.73.218 - - [16/Jun/2023 16:19:42] "GET http://gelly.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.72.15 - - [16/Jun/2023 16:19:42] "GET http://gelly.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.78.126 - - [16/Jun/2023 16:19:42] "[33mGET http://gelly.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.78.77 - - [16/Jun/2023 16:34:49] "GET http://www.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.36.178 - - [16/Jun/2023 16:34:49] "GET http://www.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.30.214 - - [16/Jun/2023 16:34:49] "[33mGET http://www.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.92.33.185 - - [16/Jun/2023 16:36:16] "GET http://doc.ashen23.site:8801/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.79.71 - - [16/Jun/2023 16:36:16] "GET http://doc.ashen23.site/ HTTP/1.1" 200 -
+INFO:werkzeug:47.92.33.185 - - [16/Jun/2023 16:36:16] "[33mGET http://doc.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
