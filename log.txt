@@ -7096,3 +7096,45 @@ INFO:werkzeug:47.92.30.214 - - [16/Jun/2023 16:34:49] "[33mGET http://www.ashen
 INFO:werkzeug:47.92.33.185 - - [16/Jun/2023 16:36:16] "GET http://doc.ashen23.site:8801/ HTTP/1.1" 200 -
 INFO:werkzeug:47.92.79.71 - - [16/Jun/2023 16:36:16] "GET http://doc.ashen23.site/ HTTP/1.1" 200 -
 INFO:werkzeug:47.92.33.185 - - [16/Jun/2023 16:36:16] "[33mGET http://doc.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   d8dff48..fba2b02  main -> main
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-17 02:18:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   fba2b02..8a3e6ea  main -> main
+ERROR:apscheduler.executors.default:Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-06-17 02:18:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/root/Apps/ashen_boring/venv/lib/python3.8/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+ERROR:werkzeug:172.104.11.4 - - [17/Jun/2023 00:28:41] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:172.104.11.4 - - [17/Jun/2023 00:28:41] "[35m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03z\x14$XgØz\x8aÈ:\x9fõØÓ~lM\x01c×z)D3o$|e=¡\x94.\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:45.79.181.223 - - [17/Jun/2023 01:13:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:162.216.149.62 - - [17/Jun/2023 01:26:27] "GET / HTTP/1.1" 200 -
