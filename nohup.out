@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/root/Apps/ashen_boring/github.py", line 3, in <module>
+    from flask_apscheduler import APScheduler
+ModuleNotFoundError: No module named 'flask_apscheduler'
+Traceback (most recent call last):
+  File "github.py", line 1, in <module>
+    from flask import Flask, render_template, jsonify
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "github.py", line 1, in <module>
+    from flask import Flask, render_template, jsonify
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app 'github'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8801
+ * Running on http://172.26.23.117:8801
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 596-734-328
+1.202.165.115 - - [25/Jun/2023 16:28:07] "GET / HTTP/1.1" 200 -
+1.202.165.115 - - [25/Jun/2023 16:28:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
