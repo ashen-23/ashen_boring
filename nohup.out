@@ -2370,3 +2370,117 @@ with app.app_context(). See the documentation for more information.
 117.187.173.43 - - [06/Jul/2023 05:40:27] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ÝpnB\x05\\ø¯ûy\x0eR*\x0d'óA8\x80õ\x9c\x9dS\x91ÿ­ÆÉ"J\x1e\x96 [Âè2:ØV§ÜÜ´4d\x03Y=ê|à\x19É\x02!ªé:;\x94\x00A8Ó\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
 117.33.251.54 - - [06/Jul/2023 07:27:49] "GET / HTTP/1.1" 200 -
 117.33.251.54 - - [06/Jul/2023 07:27:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   3b3638b..4b36109  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-07-06 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   4b36109..c164ac1  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-07-06 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+117.33.228.27 - - [06/Jul/2023 07:28:26] "GET / HTTP/1.1" 200 -
+117.33.228.27 - - [06/Jul/2023 07:28:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.251.117 - - [06/Jul/2023 07:28:27] "GET / HTTP/1.1" 200 -
+117.33.251.117 - - [06/Jul/2023 07:28:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.226.12 - - [06/Jul/2023 07:28:33] "GET / HTTP/1.1" 200 -
+117.33.226.12 - - [06/Jul/2023 07:28:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.106.67 - - [06/Jul/2023 07:28:52] "GET / HTTP/1.1" 200 -
+117.34.106.67 - - [06/Jul/2023 07:28:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.134.210.241 - - [06/Jul/2023 07:29:00] "GET / HTTP/1.1" 200 -
+113.134.210.241 - - [06/Jul/2023 07:29:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.41.186.173 - - [06/Jul/2023 07:29:32] "GET / HTTP/1.1" 200 -
+36.41.186.173 - - [06/Jul/2023 07:29:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+183.136.225.10 - - [06/Jul/2023 07:42:27] "GET / HTTP/1.1" 200 -
+183.136.225.10 - - [06/Jul/2023 07:42:27] "GET / HTTP/1.1" 200 -
+183.136.225.10 - - [06/Jul/2023 07:42:27] code 400, message Bad request version ('\x14m½±\x00\x00Ú\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+183.136.225.10 - - [06/Jul/2023 07:42:27] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x99FT\x85\x1cú\x0fN1\x91Ê_\x08\x8fVÒâzi¨A¾»/ÚÂ@\x85\x14m½±\x00\x00Ú\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00[0m" HTTPStatus.BAD_REQUEST -
+183.136.225.10 - - [06/Jul/2023 07:42:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+183.136.225.10 - - [06/Jul/2023 07:42:28] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+36.40.76.53 - - [06/Jul/2023 07:51:47] "GET / HTTP/1.1" 200 -
+36.40.76.53 - - [06/Jul/2023 07:51:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.92.30.214 - - [06/Jul/2023 08:52:15] "GET http://jp.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.77.114 - - [06/Jul/2023 08:52:15] "GET http://jp.ashen23.site/ HTTP/1.1" 200 -
+8.142.42.74 - - [06/Jul/2023 08:52:15] "[33mGET http://jp.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.37.1 - - [06/Jul/2023 08:53:45] "GET http://nas.ashen23.site:8801/ HTTP/1.1" 200 -
+8.142.42.74 - - [06/Jul/2023 08:53:45] "GET http://nas.ashen23.site/ HTTP/1.1" 200 -
+47.92.71.160 - - [06/Jul/2023 08:53:45] "[33mGET http://nas.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.31.57 - - [06/Jul/2023 08:56:11] "GET http://registry.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.71.160 - - [06/Jul/2023 08:56:11] "GET http://registry.ashen23.site/ HTTP/1.1" 200 -
+47.92.5.239 - - [06/Jul/2023 08:56:11] "[33mGET http://registry.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.31.57 - - [06/Jul/2023 08:58:18] "GET http://qb.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.77.114 - - [06/Jul/2023 08:58:18] "GET http://qb.ashen23.site/ HTTP/1.1" 200 -
+47.92.79.156 - - [06/Jul/2023 08:58:18] "[33mGET http://qb.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.73.218 - - [06/Jul/2023 09:04:16] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
+47.92.78.102 - - [06/Jul/2023 09:04:16] "GET http://39.100.66.203/ HTTP/1.1" 200 -
+47.92.79.86 - - [06/Jul/2023 09:04:16] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
+219.144.66.41 - - [06/Jul/2023 09:28:53] "GET / HTTP/1.1" 200 -
+219.144.66.41 - - [06/Jul/2023 09:28:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.134.210.231 - - [06/Jul/2023 09:29:30] "GET / HTTP/1.1" 200 -
+113.134.210.231 - - [06/Jul/2023 09:29:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.41.173.34 - - [06/Jul/2023 09:29:30] "GET / HTTP/1.1" 200 -
+36.41.173.34 - - [06/Jul/2023 09:29:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.46.143.170 - - [06/Jul/2023 09:29:32] "GET / HTTP/1.1" 200 -
+36.46.143.170 - - [06/Jul/2023 09:29:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+219.144.95.9 - - [06/Jul/2023 09:29:37] "GET / HTTP/1.1" 200 -
+219.144.95.9 - - [06/Jul/2023 09:29:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.41.173.232 - - [06/Jul/2023 09:29:57] "GET / HTTP/1.1" 200 -
+36.41.173.232 - - [06/Jul/2023 09:29:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.215.5 - - [06/Jul/2023 09:31:51] "GET / HTTP/1.1" 200 -
+117.34.215.5 - - [06/Jul/2023 09:31:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.92.73.218 - - [06/Jul/2023 09:45:39] "GET http://tool.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.79.86 - - [06/Jul/2023 09:45:40] "GET http://tool.ashen23.site/ HTTP/1.1" 200 -
+47.92.79.71 - - [06/Jul/2023 09:45:40] "[33mGET http://tool.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+8.142.104.65 - - [06/Jul/2023 10:14:40] "GET http://www.ashen23.site:8801/ HTTP/1.1" 200 -
+8.142.42.74 - - [06/Jul/2023 10:14:41] "GET http://www.ashen23.site/ HTTP/1.1" 200 -
+47.92.71.160 - - [06/Jul/2023 10:14:41] "[33mGET http://www.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.32.64 - - [06/Jul/2023 10:48:33] "GET http://doc.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.31.57 - - [06/Jul/2023 10:48:33] "GET http://doc.ashen23.site/ HTTP/1.1" 200 -
+47.92.79.86 - - [06/Jul/2023 10:48:33] "[33mGET http://doc.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.36.178 - - [06/Jul/2023 10:53:26] "GET http://docker.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.70.66 - - [06/Jul/2023 10:53:26] "GET http://docker.ashen23.site/ HTTP/1.1" 200 -
+47.92.36.178 - - [06/Jul/2023 10:53:26] "[33mGET http://docker.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.30.214 - - [06/Jul/2023 10:57:21] "GET http://iostools.site:8801/ HTTP/1.1" 200 -
+47.92.29.136 - - [06/Jul/2023 10:57:21] "GET http://iostools.site/ HTTP/1.1" 200 -
+47.92.32.64 - - [06/Jul/2023 10:57:21] "[33mGET http://iostools.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.29.136 - - [06/Jul/2023 10:57:35] "GET http://i.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.78.126 - - [06/Jul/2023 10:57:35] "GET http://i.ashen23.site/ HTTP/1.1" 200 -
+47.92.33.204 - - [06/Jul/2023 10:57:35] "[33mGET http://i.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.73.109 - - [06/Jul/2023 11:01:18] "GET http://gelly.ashen23.site:8801/ HTTP/1.1" 200 -
+8.142.104.65 - - [06/Jul/2023 11:01:18] "GET http://gelly.ashen23.site/ HTTP/1.1" 200 -
+47.92.30.214 - - [06/Jul/2023 11:01:18] "[33mGET http://gelly.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.68.55 - - [06/Jul/2023 11:03:23] "GET http://ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.73.109 - - [06/Jul/2023 11:03:23] "GET http://ashen23.site/ HTTP/1.1" 200 -
+8.142.31.72 - - [06/Jul/2023 11:03:23] "[33mGET http://ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.31.57 - - [06/Jul/2023 11:10:28] "GET http://proxy.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.33.204 - - [06/Jul/2023 11:10:28] "GET http://proxy.ashen23.site/ HTTP/1.1" 200 -
+47.92.72.15 - - [06/Jul/2023 11:10:28] "[33mGET http://proxy.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
