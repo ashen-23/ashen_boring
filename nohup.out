@@ -6646,3 +6646,47 @@ the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 47.92.72.15 - - [23/Jul/2023 03:16:31] code 400, message Bad request syntax ("\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03Ý\x9dKJ/\x8frñéºS¤_vMÌq·h\x06@ØÞíÿ=\x84µ6\x99N©\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
 47.92.72.15 - - [23/Jul/2023 03:16:31] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03Ý\x9dKJ/\x8frñéºS¤_vMÌq·h\x06@ØÞíÿ=\x84µ6\x99N©\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+To github.com:ashen-23/ashen_boring.git
+   56cd39f..f58f1e0  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-07-23 09:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   f58f1e0..84788c7  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-07-23 09:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+47.92.5.239 - - [23/Jul/2023 05:39:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03Õ\x8a\x92©ÈÄª\x8d\x06¾äîÙéf\x96\x88\x00G¥\x84H\x92\x04Í&<Á¯')
+47.92.5.239 - - [23/Jul/2023 05:39:03] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03Õ\x8a\x92©ÈÄª\x8d\x06¾äîÙéf\x96\x88\x00G¥\x84H\x92\x04Í&<Á¯\x09\x9aç\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+162.216.150.179 - - [23/Jul/2023 06:30:47] "GET / HTTP/1.1" 200 -
+47.92.73.218 - - [23/Jul/2023 07:45:46] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
+39.103.133.249 - - [23/Jul/2023 07:45:46] "GET http://39.100.66.203/ HTTP/1.1" 200 -
+47.92.78.102 - - [23/Jul/2023 07:45:46] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
