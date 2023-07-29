@@ -8117,3 +8117,48 @@ the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 87.236.176.76 - - [29/Jul/2023 05:05:06] "GET / HTTP/1.1" 200 -
 35.203.210.75 - - [29/Jul/2023 05:23:35] "GET / HTTP/1.1" 200 -
+To github.com:ashen-23/ashen_boring.git
+   4d496f2..511cb4b  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-07-29 10:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   511cb4b..d9ff134  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-07-29 10:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+47.92.30.57 - - [29/Jul/2023 06:38:10] "GET http://docker.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.77.114 - - [29/Jul/2023 06:38:10] "GET http://docker.ashen23.site/ HTTP/1.1" 200 -
+47.92.30.57 - - [29/Jul/2023 06:38:10] "[33mGET http://docker.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.31.57 - - [29/Jul/2023 07:37:59] "GET http://docker.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.78.126 - - [29/Jul/2023 07:38:00] "GET http://docker.ashen23.site/ HTTP/1.1" 200 -
+47.92.36.178 - - [29/Jul/2023 07:38:00] "[33mGET http://docker.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+87.236.176.247 - - [29/Jul/2023 10:27:29] "GET / HTTP/1.1" 200 -
