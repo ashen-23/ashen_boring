@@ -10164,3 +10164,48 @@ the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 69.234.243.123 - - [07/Aug/2023 02:58:27] code 400, message Bad request syntax ('333766643833656338616434363333643963363962386536653538383937393235613033653338636434')
 69.234.243.123 - - [07/Aug/2023 02:58:27] "[35m[1m333766643833656338616434363333643963363962386536653538383937393235613033653338636434[0m" HTTPStatus.BAD_REQUEST -
+To github.com:ashen-23/ashen_boring.git
+   99757ac..ef5edb4  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-07 09:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   ef5edb4..32a17cd  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-07 09:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+115.231.200.254 - - [07/Aug/2023 05:30:33] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+115.231.200.254 - - [07/Aug/2023 05:30:33] "[35m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+47.92.36.178 - - [07/Aug/2023 06:34:48] code 400, message Bad request syntax ("\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03&L\x81´ÏÍ`´@º\x17õ\x90RóÐne\x07ÀQ@\x07Ý\x12\x03®ÓÏI\x8cà\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+47.92.36.178 - - [07/Aug/2023 06:34:48] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03&L\x81´ÏÍ`´@º\x17õ\x90RóÐne\x07ÀQ@\x07Ý\x12\x03®ÓÏI\x8cà\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+47.92.78.77 - - [07/Aug/2023 06:34:51] code 400, message Bad request syntax ("\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03]f\x87/4\x96Ò\x00-\x15bf]ìÞA8FãÖ\x81Û{°\x1a\x8d)°\x8f\x96\\î\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+47.92.78.77 - - [07/Aug/2023 06:34:51] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03]f\x87/4\x96Ò\x00-\x15bf]ìÞA8FãÖ\x81Û{°\x1a\x8d)°\x8f\x96\\î\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+35.203.211.113 - - [07/Aug/2023 07:02:39] "GET / HTTP/1.1" 200 -
