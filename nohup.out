@@ -11195,3 +11195,49 @@ with app.app_context(). See the documentation for more information.
 167.248.133.126 - - [11/Aug/2023 23:59:31] code 505, message Invalid HTTP version (2.0)
 167.248.133.126 - - [11/Aug/2023 23:59:31] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
 167.248.133.126 - - [11/Aug/2023 23:59:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5abe60211c57cd7dde8c6635615861d74c6bd5d6 but expected 2ffa409a25d5f49608ed1193602e74112b330888)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-12 09:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   2ffa409..5abe602  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-12 09:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+152.32.132.233 - - [12/Aug/2023 06:55:26] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03øYÝ\x9a\\Þmÿ«ìz\x9e<%Jò\x99î$x~\x14hú\x04\x18\x95\x16w¹\x8dS')
+152.32.132.233 - - [12/Aug/2023 06:55:26] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03øYÝ\x9a\\Þmÿ«ìz\x9e<%Jò\x99î$x~\x14hú\x04\x18\x95\x16w¹\x8dS \x1a\x9dà4\x13\x81[0m" HTTPStatus.BAD_REQUEST -
+152.32.132.233 - - [12/Aug/2023 06:55:26] code 400, message Bad request version ('À\x13À')
+152.32.132.233 - - [12/Aug/2023 06:55:26] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03,­Z\x12Îk-ö\x07ª*]î$pÓ¹K³T¢I\x88¯Õ©¯µ³Ù\x04¶ ÷2É\x90hÍâZ<\x81\x84\x0dWC£f´\x94!³ôø\x19'xïV°\x00\x9c¶Ê\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+152.32.132.233 - - [12/Aug/2023 06:55:27] "GET / HTTP/1.1" 200 -
+185.233.19.235 - - [12/Aug/2023 06:57:55] "GET / HTTP/1.1" 200 -
+185.233.19.235 - - [12/Aug/2023 06:57:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
