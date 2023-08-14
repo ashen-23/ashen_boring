@@ -12061,3 +12061,46 @@ with app.app_context(). See the documentation for more information.
 47.103.41.229 - - [15/Aug/2023 01:59:49] code 400, message Bad request version ('»&c\x1a')
 47.103.41.229 - - [15/Aug/2023 01:59:49] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ñ&DP\x0dW\x82¨\x08XJ\x80Å©¿s,$JÌ;myÎ\x84\x1e»&c\x1a[0m" HTTPStatus.BAD_REQUEST -
 47.103.41.229 - - [15/Aug/2023 01:59:49] "GET / HTTP/1.1" 200 -
+To github.com:ashen-23/ashen_boring.git
+   cbd2cfd..2986078  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-15 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   2986078..418a693  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-15 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+47.92.79.86 - - [15/Aug/2023 05:10:59] code 400, message Bad request version ("Dk\x13ØÕÎ¿½Å¤2áäØÄÓ\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+47.92.79.86 - - [15/Aug/2023 05:10:59] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03É\x8e\x9aµ ³$,ñ¡ÂÃaGL\x85Dk\x13ØÕÎ¿½Å¤2áäØÄÓ\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+47.92.31.57 - - [15/Aug/2023 05:20:47] code 400, message Bad request syntax ('\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03ì\x87H\x9fNs\x83¨»:#\x81{ÄeUZQ\x87À\x9bÑÚÐ')
+47.92.31.57 - - [15/Aug/2023 05:20:47] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03ì\x87H\x9fNs\x83¨»:#\x81{ÄeUZQ\x87À\x9bÑÚÐ[0m" HTTPStatus.BAD_REQUEST -
+162.216.149.203 - - [15/Aug/2023 06:50:01] "GET / HTTP/1.1" 200 -
