@@ -12143,3 +12143,284 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   e863c5e..be98866  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-15 17:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   be98866..ea261b7  main -> main
+[main f34518d] 2023年 07月 29日 星期六 15:27:50 CST
+ 2 files changed, 245 insertions(+)
+running...
+[main bf97620] 2023年 07月 29日 星期六 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ff68c80] 2023年 07月 30日 星期日 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 24bd47c] 2023年 07月 30日 星期日 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d6ecbc8] 2023年 07月 30日 星期日 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0f69d13] 2023年 07月 30日 星期日 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 873d2ff] 2023年 07月 30日 星期日 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f30f17f] 2023年 07月 31日 星期一 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c890e7d] 2023年 07月 31日 星期一 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 78f5d0e] 2023年 07月 31日 星期一 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 847f756] 2023年 07月 31日 星期一 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7def84a] 2023年 07月 31日 星期一 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main baeb5ff] 2023年 08月 01日 星期二 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1ef77eb] 2023年 08月 01日 星期二 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ef954fe] 2023年 08月 01日 星期二 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0feecc6] 2023年 08月 01日 星期二 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9d46f86] 2023年 08月 01日 星期二 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b31a74e] 2023年 08月 02日 星期三 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4e2b591] 2023年 08月 02日 星期三 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main db32929] 2023年 08月 02日 星期三 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b2d15b9] 2023年 08月 02日 星期三 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4d1b696] 2023年 08月 03日 星期四 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2bb9532] 2023年 08月 03日 星期四 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2e2ebb3] 2023年 08月 03日 星期四 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 991c238] 2023年 08月 03日 星期四 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e7039b4] 2023年 08月 03日 星期四 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ddd97f3] 2023年 08月 04日 星期五 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1cb23af] 2023年 08月 04日 星期五 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3d7e8d4] 2023年 08月 04日 星期五 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a7be5fe] 2023年 08月 04日 星期五 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2680d42] 2023年 08月 04日 星期五 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7ae2b08] 2023年 08月 05日 星期六 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 097e198] 2023年 08月 05日 星期六 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 306aa32] 2023年 08月 05日 星期六 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main dc238e8] 2023年 08月 05日 星期六 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b1baa9b] 2023年 08月 05日 星期六 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d3b85c3] 2023年 08月 06日 星期日 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 14ab32f] 2023年 08月 06日 星期日 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b361f2d] 2023年 08月 06日 星期日 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 700d563] 2023年 08月 06日 星期日 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 99757ac] 2023年 08月 06日 星期日 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 32a17cd] 2023年 08月 07日 星期一 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e438b39] 2023年 08月 07日 星期一 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d1a6d29] 2023年 08月 07日 星期一 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3b90400] 2023年 08月 07日 星期一 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 13b9f95] 2023年 08月 08日 星期二 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3db45e6] 2023年 08月 08日 星期二 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6e042de] 2023年 08月 08日 星期二 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main be6c20a] 2023年 08月 08日 星期二 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 73b392f] 2023年 08月 08日 星期二 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5790b9b] 2023年 08月 09日 星期三 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3ec0ee8] 2023年 08月 09日 星期三 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d1cae50] 2023年 08月 09日 星期三 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main aa8c1c1] 2023年 08月 09日 星期三 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e65f5a2] 2023年 08月 09日 星期三 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6586375] 2023年 08月 10日 星期四 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f6e5f91] 2023年 08月 10日 星期四 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 564d47f] 2023年 08月 10日 星期四 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0e3ad57] 2023年 08月 10日 星期四 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ddfd1b7] 2023年 08月 10日 星期四 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 69227d0] 2023年 08月 11日 星期五 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c1b9a4b] 2023年 08月 11日 星期五 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7e916a9] 2023年 08月 11日 星期五 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8adc2c9] 2023年 08月 11日 星期五 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2ffa409] 2023年 08月 11日 星期五 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 984d4fa] 2023年 08月 12日 星期六 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 66b393d] 2023年 08月 12日 星期六 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2742ceb] 2023年 08月 12日 星期六 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f75f2c0] 2023年 08月 12日 星期六 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 94c0c4f] 2023年 08月 13日 星期日 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 50b19d8] 2023年 08月 13日 星期日 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e6e8419] 2023年 08月 13日 星期日 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b5b8fdb] 2023年 08月 13日 星期日 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2c3a006] 2023年 08月 13日 星期日 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main fa3a4cf] 2023年 08月 14日 星期一 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 62cf141] 2023年 08月 14日 星期一 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 43e292c] 2023年 08月 14日 星期一 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 60dad03] 2023年 08月 14日 星期一 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main cbd2cfd] 2023年 08月 14日 星期一 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 418a693] 2023年 08月 15日 星期二 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1c70902] 2023年 08月 15日 星期二 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-15 17:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
