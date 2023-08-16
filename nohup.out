@@ -12640,3 +12640,47 @@ with app.app_context(). See the documentation for more information.
 39.103.151.239 - - [15/Aug/2023 23:55:01] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Æ­|éSUX\x9d%?\x95çz\x9e6KQ\x89í\x1a Ù\x15]\x1a\x89 N\x9d\x11#\x80 ¢ù\x84±ã\x1eì5¡´"¿s(7\x9dûê\x1e\x03\x15/à\x9e¨\x15ï\x84Ö£Û\x18\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À[0m" HTTPStatus.BAD_REQUEST -
 39.103.151.239 - - [15/Aug/2023 23:55:05] code 400, message Bad HTTP/0.9 request type ('\x80\x00\x00(1m\x1a"\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86')
 39.103.151.239 - - [15/Aug/2023 23:55:05] "[35m[1m\x80\x00\x00(1m\x1a"\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+To github.com:ashen-23/ashen_boring.git
+   9112d3f..a98eecd  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-16 08:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   a98eecd..a6e0b00  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-16 08:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+139.224.83.64 - - [16/Aug/2023 04:11:58] code 400, message Bad request version ('}\x04=e\x8f\xad/éÐú\x14E\x9e"A°Îæl´å`\x97\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À\'\x00gÀ')
+139.224.83.64 - - [16/Aug/2023 04:11:58] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8d'\x12¼_ÞxaÚ\x10\x91Y\x8c\x1a½\x82 »\x09\x16o,\x95â*:r\x1f\x9a\x152ø Ö\x8bìþx\x1d:E\x0d}\x04=e\x8f­/éÐú\x14E\x9e"A°Îæl´å`\x97\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+139.224.83.64 - - [16/Aug/2023 04:11:58] "GET / HTTP/1.1" 200 -
+39.103.166.74 - - [16/Aug/2023 04:21:04] code 400, message Bad request version ("Xh\x9e¨e\x98\x8d\x80\x16.Â\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+39.103.166.74 - - [16/Aug/2023 04:21:04] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03E×Ü\x9cip\x00\x02§z\x11\x96\x0c7I\x02(@¸¾°$»Î­v\x89ÁA¦\x9c\x07 w<1h8(Ë«óÔ¸\x90,NñjØûV\x86\x1eXh\x9e¨e\x98\x8d\x80\x16.Â\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+39.103.166.74 - - [16/Aug/2023 04:21:04] "GET / HTTP/1.1" 200 -
