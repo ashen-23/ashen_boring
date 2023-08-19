@@ -13680,3 +13680,45 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   edab211..c410b42  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-20 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   c410b42..0e2e7d2  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-20 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+35.203.210.214 - - [20/Aug/2023 03:53:28] "GET / HTTP/1.1" 200 -
+47.103.155.228 - - [20/Aug/2023 04:13:39] code 400, message Bad request version ("ró?\x10LÃXTþ¶h\x87\x90\x04F±Ã¤Q\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+47.103.155.228 - - [20/Aug/2023 04:13:39] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÝwBq^¶u½\x8cø|¾î\x02éJ{¢;eT÷\x08Ç\x1aýg}(sº_ T9i\x8e«·Jx\x856\x18\x9b ró?\x10LÃXTþ¶h\x87\x90\x04F±Ã¤Q\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+47.103.155.228 - - [20/Aug/2023 04:13:39] "GET / HTTP/1.1" 200 -
