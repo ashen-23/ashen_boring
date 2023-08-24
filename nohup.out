@@ -15093,3 +15093,49 @@ This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 87.236.176.212 - - [24/Aug/2023 23:51:23] "GET / HTTP/1.1" 200 -
+To github.com:ashen-23/ashen_boring.git
+   0711b5e..7cb42b0  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-25 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7cb42b0faaad200abda0220e5e0019de4da5dbdb but expected 0711b5e50ca3378d85ae4b7fd48a6613186ffd2a)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-08-25 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+39.103.163.187 - - [25/Aug/2023 03:50:28] code 400, message Bad request version ("~\x84a\x80KÇû:èZm$D\x9d-\x00\x89\x01©>ÙÔ\x82\x02\x18\x8a;²³<¿|\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+39.103.163.187 - - [25/Aug/2023 03:50:28] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03µ|¾;kG~\x07Q¤÷vP¥¾ÊUÆå2d¨\x01¤°\x08\x09#éÈ\x9c\x17 ~\x84a\x80KÇû:èZm$D\x9d-\x00\x89\x01©>ÙÔ\x82\x02\x18\x8a;²³<¿|\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+39.103.163.187 - - [25/Aug/2023 03:50:28] "GET / HTTP/1.1" 200 -
+162.216.149.207 - - [25/Aug/2023 04:11:22] "GET / HTTP/1.1" 200 -
+47.92.36.178 - - [25/Aug/2023 05:43:43] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
+8.142.31.72 - - [25/Aug/2023 05:43:43] "GET http://39.100.66.203/ HTTP/1.1" 200 -
+47.92.31.143 - - [25/Aug/2023 05:43:43] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
