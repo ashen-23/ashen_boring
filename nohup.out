@@ -16718,3 +16718,57 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   502aa3e..4890426  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-01 04:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 48904267dff4815e90395df56a17c23965a99300 but expected 502aa3ebf5babff0cd2bcc849023088ea3646285)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-01 04:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+87.236.176.83 - - [01/Sep/2023 00:09:17] "GET / HTTP/1.1" 200 -
+35.203.211.13 - - [01/Sep/2023 00:25:49] "GET / HTTP/1.1" 200 -
+8.142.31.72 - - [01/Sep/2023 02:11:02] "GET http://i.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.70.66 - - [01/Sep/2023 02:11:02] "GET http://i.ashen23.site/ HTTP/1.1" 200 -
+47.92.5.239 - - [01/Sep/2023 02:11:03] "[33mGET http://i.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+106.14.118.73 - - [01/Sep/2023 03:03:00] "GET / HTTP/1.1" 200 -
+106.14.118.73 - - [01/Sep/2023 03:03:00] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+106.14.118.73 - - [01/Sep/2023 03:03:00] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+106.14.118.73 - - [01/Sep/2023 03:03:00] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+106.14.118.73 - - [01/Sep/2023 03:03:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+106.14.118.73 - - [01/Sep/2023 03:03:01] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+106.14.118.73 - - [01/Sep/2023 03:03:01] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+106.14.118.73 - - [01/Sep/2023 03:03:01] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+106.14.118.73 - - [01/Sep/2023 03:03:01] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+106.14.118.73 - - [01/Sep/2023 03:03:01] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
