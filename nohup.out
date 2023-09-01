@@ -17225,3 +17225,78 @@ with app.app_context(). See the documentation for more information.
 223.111.175.125 - - [01/Sep/2023 22:27:52] "GET / HTTP/1.1" 200 -
 223.111.175.125 - - [01/Sep/2023 22:27:53] code 400, message Bad request version ('À\x13À')
 223.111.175.125 - - [01/Sep/2023 22:27:53] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Àæ1«û´ðÀA.l«Z&0ªA<%Ï:t-\x0dz|«\x1c¤qÒ: çE.£\x88ø6xîÈC÷o9oâCNÂÛ\x1b\x08\x8a\x81æOnï\x01ðC­\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+To github.com:ashen-23/ashen_boring.git
+   023e0f5..7e6653e  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-02 05:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7e6653ed8954600426ae75def109aaabea226486 but expected 023e0f5aa66df2542e6daf92b38c9914e20b3a84)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-02 05:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+47.100.110.76 - - [02/Sep/2023 01:21:58] "GET / HTTP/1.1" 200 -
+47.100.110.76 - - [02/Sep/2023 01:21:58] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.100.110.76 - - [02/Sep/2023 01:21:58] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.100.110.76 - - [02/Sep/2023 01:21:59] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.100.110.76 - - [02/Sep/2023 01:21:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.100.110.76 - - [02/Sep/2023 01:21:59] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.100.110.76 - - [02/Sep/2023 01:21:59] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.100.110.76 - - [02/Sep/2023 01:21:59] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.100.110.76 - - [02/Sep/2023 01:21:59] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.100.110.76 - - [02/Sep/2023 01:21:59] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+101.132.39.93 - - [02/Sep/2023 02:22:29] "GET / HTTP/1.1" 200 -
+101.132.39.93 - - [02/Sep/2023 02:22:29] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+101.132.39.93 - - [02/Sep/2023 02:22:29] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+101.132.39.93 - - [02/Sep/2023 02:22:29] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+101.132.39.93 - - [02/Sep/2023 02:22:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+101.132.39.93 - - [02/Sep/2023 02:22:29] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+101.132.39.93 - - [02/Sep/2023 02:22:30] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+101.132.39.93 - - [02/Sep/2023 02:22:30] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+101.132.39.93 - - [02/Sep/2023 02:22:30] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+101.132.39.93 - - [02/Sep/2023 02:22:30] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+109.61.89.72 - - [02/Sep/2023 03:29:12] "GET / HTTP/1.1" 200 -
+106.75.64.209 - - [02/Sep/2023 04:17:00] "GET / HTTP/1.1" 200 -
+106.75.64.209 - - [02/Sep/2023 04:17:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+106.75.64.209 - - [02/Sep/2023 04:17:00] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+106.75.64.209 - - [02/Sep/2023 04:17:00] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+47.103.101.40 - - [02/Sep/2023 04:34:30] "GET / HTTP/1.1" 200 -
+47.103.101.40 - - [02/Sep/2023 04:34:30] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.103.101.40 - - [02/Sep/2023 04:34:31] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.103.101.40 - - [02/Sep/2023 04:34:31] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.103.101.40 - - [02/Sep/2023 04:34:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.103.101.40 - - [02/Sep/2023 04:34:31] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.103.101.40 - - [02/Sep/2023 04:34:31] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.103.101.40 - - [02/Sep/2023 04:34:31] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.103.101.40 - - [02/Sep/2023 04:34:31] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.103.101.40 - - [02/Sep/2023 04:34:31] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+162.216.149.209 - - [02/Sep/2023 05:03:42] "GET / HTTP/1.1" 200 -
