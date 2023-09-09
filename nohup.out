@@ -19111,3 +19111,49 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   710099e..829efa8  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-09 17:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 829efa8949a2f84b8dd9182113f09c305eebb480 but expected 710099e0efca85c8c798cb2696592864d8cfd6c4)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-09 17:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+104.140.148.50 - - [09/Sep/2023 15:41:48] code 400, message Bad request version ('À\x13À')
+104.140.148.50 - - [09/Sep/2023 15:41:48] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ó\x0bd\x1c\x07r½¾à2\x9a\x94¸\x0dü\x91Q\x0dv2¥ ¼é©\x8eûAVzòú H\x7f\x85Å=\x06{S$ÐQþ\x0câ~ò\x0fm2Úå¢¿^Þut\x06\x99Ðþ°\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+104.140.148.50 - - [09/Sep/2023 15:41:48] "GET / HTTP/1.1" 200 -
+104.140.148.50 - - [09/Sep/2023 15:41:48] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¡\x01\x00\x00\x9d\x03\x03õ¢wu?\x00')
+104.140.148.50 - - [09/Sep/2023 15:41:48] "[35m[1m\x16\x03\x01\x00¡\x01\x00\x00\x9d\x03\x03õ¢wu?\x00\x0dá\x92nø{aÝÐÈý\x86Ã£l\x97ì©lJº]\x9eÞê\x90\x00\x00*À+À/\x00\x9eÌ©Ì¨ÌªÀ[0m" HTTPStatus.BAD_REQUEST -
+92.63.196.176 - - [09/Sep/2023 17:20:08] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+92.63.196.176 - - [09/Sep/2023 17:20:08] "[35m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
