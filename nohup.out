@@ -21091,3 +21091,53 @@ with app.app_context(). See the documentation for more information.
 47.92.79.71 - - [17/Sep/2023 03:00:55] "GET http://39.100.66.203/ HTTP/1.1" 200 -
 47.92.73.109 - - [17/Sep/2023 03:00:55] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
 162.216.149.10 - - [17/Sep/2023 05:27:42] "GET / HTTP/1.1" 200 -
+To github.com:ashen-23/ashen_boring.git
+   e69ead2..89c27c4  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-17 10:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 89c27c4e2322bb2a3a2bec0313d119cd161a440f but expected e69ead2237d354404571924b258f9714a1e8c1ee)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-17 10:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+39.103.157.217 - - [17/Sep/2023 06:05:39] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03þ8Òä\x1a\xad\x80\x82\x95X}\x01â#Q\x02\x15Sm\x93d¤²Âðp\x96>)kúÞ')
+39.103.157.217 - - [17/Sep/2023 06:05:39] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03þ8Òä\x1a­\x80\x82\x95X}\x01â#Q\x02\x15Sm\x93d¤²Âðp\x96>)kúÞ ·¢:\x9eR©Ì7ùµÀ\x90¬¡iuÍ³ÍJ,\x86{C8ç\x8aW²r¶\x87\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+39.103.157.217 - - [17/Sep/2023 06:05:39] "GET / HTTP/1.1" 200 -
+47.92.71.160 - - [17/Sep/2023 06:49:32] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
+8.142.31.72 - - [17/Sep/2023 06:49:32] "GET http://39.100.66.203/ HTTP/1.1" 200 -
+8.142.42.74 - - [17/Sep/2023 06:49:32] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
+104.140.148.114 - - [17/Sep/2023 08:53:29] "GET / HTTP/1.1" 200 -
+104.140.148.114 - - [17/Sep/2023 08:53:29] code 400, message Bad request version ('À\x13À')
+104.140.148.114 - - [17/Sep/2023 08:53:29] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x01Ù3ìà$ÞWØ\x82Oñ¥\x92\x01·ÚÙJÊ\x9bÞ_ü\x1f\x91\x8eTÿwe\x05 X4Â[³~!L\x84U\x91û2\x1f¹LS\x15\x13ª¾D3\x02½­mc­§É¤\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+104.140.148.114 - - [17/Sep/2023 08:53:29] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¡\x01\x00\x00\x9d\x03\x03\x97\x14CB+¶ªß)\x193ZlÂÅn\x16¼Ü¬')
+104.140.148.114 - - [17/Sep/2023 08:53:29] "[35m[1m\x16\x03\x01\x00¡\x01\x00\x00\x9d\x03\x03\x97\x14CB+¶ªß)\x193ZlÂÅn\x16¼Ü¬\x0d)v¾éø\x07»Áë\x18=\x00\x00*À+À/\x00\x9eÌ©Ì¨ÌªÀ[0m" HTTPStatus.BAD_REQUEST -
