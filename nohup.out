@@ -24095,3 +24095,59 @@ the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 89.248.165.165 - - [29/Sep/2023 02:16:02] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
 89.248.165.165 - - [29/Sep/2023 02:16:02] "[35m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+To github.com:ashen-23/ashen_boring.git
+   3652b78..3a54ab3  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-29 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3a54ab34e6662885df4e015a7763e34ee2fd8bee but expected 3652b780ca30939de58818350f7b08f95df3ebfe)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-09-29 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+35.203.211.183 - - [29/Sep/2023 04:12:01] "GET / HTTP/1.1" 200 -
+87.236.176.223 - - [29/Sep/2023 05:40:37] "GET / HTTP/1.1" 200 -
+47.92.73.109 - - [29/Sep/2023 05:43:54] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
+47.92.78.77 - - [29/Sep/2023 05:43:54] "GET http://39.100.66.203/ HTTP/1.1" 200 -
+47.92.79.86 - - [29/Sep/2023 05:43:54] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
+106.14.45.145 - - [29/Sep/2023 06:35:21] code 400, message Bad request version ("\x9dkb{±Ö.Y\x9d\x83zHØ'«\xad\x9eW4o*k\x14Ý\x16M\x92ÆE\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+106.14.45.145 - - [29/Sep/2023 06:35:21] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03d½ìrW®o\x87-\x1fèrôKÐ\x0d\x98fô ÿÝ10IY\x02uMp\x0c\x94 r:\x1f\x9dkb{±Ö.Y\x9d\x83zHØ'«­\x9eW4o*k\x14Ý\x16M\x92ÆE\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+106.14.45.145 - - [29/Sep/2023 06:35:21] "GET / HTTP/1.1" 200 -
+47.92.79.86 - - [29/Sep/2023 06:46:18] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
+47.92.79.71 - - [29/Sep/2023 06:46:18] "GET http://39.100.66.203/ HTTP/1.1" 200 -
+39.103.133.249 - - [29/Sep/2023 06:46:18] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
+167.248.133.184 - - [29/Sep/2023 07:08:52] "GET / HTTP/1.1" 200 -
+167.248.133.184 - - [29/Sep/2023 07:08:52] code 505, message Invalid HTTP version (2.0)
+167.248.133.184 - - [29/Sep/2023 07:08:52] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.184 - - [29/Sep/2023 07:08:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.92.73.218 - - [29/Sep/2023 07:15:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03Ð')
+47.92.73.218 - - [29/Sep/2023 07:15:20] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03Ð\x0b\x15\x90O~²$\x13®\x9bd\x9bÊ±Àv«r¶Zqù\x9dVÓ\x07Ø%S»E\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
