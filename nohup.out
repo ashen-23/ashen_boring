@@ -25718,3 +25718,81 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   87316c3..ad914fa  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-03 16:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at ad914fa1b8528d509cafa680881f053ab79a99c2 but expected 87316c331bc05dbc037ba7742f993b04e8dc08f0)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-03 16:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+111.7.96.147 - - [03/Oct/2023 14:59:09] code 400, message Bad request version ('À\x13À')
+111.7.96.147 - - [03/Oct/2023 14:59:09] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+111.7.96.147 - - [03/Oct/2023 14:59:19] "GET / HTTP/1.1" 200 -
+115.220.4.109 - - [03/Oct/2023 15:03:49] "GET / HTTP/1.1" 200 -
+115.220.4.109 - - [03/Oct/2023 15:03:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.40.65.60 - - [03/Oct/2023 15:03:51] "GET / HTTP/1.1" 200 -
+36.40.65.60 - - [03/Oct/2023 15:03:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.40.90.205 - - [03/Oct/2023 15:03:56] "GET / HTTP/1.1" 200 -
+36.40.90.205 - - [03/Oct/2023 15:03:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.40.76.123 - - [03/Oct/2023 15:03:59] "GET / HTTP/1.1" 200 -
+36.40.76.123 - - [03/Oct/2023 15:03:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.103.30 - - [03/Oct/2023 15:04:00] "GET / HTTP/1.1" 200 -
+117.34.103.30 - - [03/Oct/2023 15:04:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.40.79.254 - - [03/Oct/2023 15:04:01] "GET / HTTP/1.1" 200 -
+36.40.79.254 - - [03/Oct/2023 15:04:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.234.243 - - [03/Oct/2023 15:04:10] "GET / HTTP/1.1" 200 -
+117.33.234.243 - - [03/Oct/2023 15:04:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+1.82.239.13 - - [03/Oct/2023 15:04:25] "GET / HTTP/1.1" 200 -
+1.82.239.13 - - [03/Oct/2023 15:04:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.103.242 - - [03/Oct/2023 15:04:37] "GET / HTTP/1.1" 200 -
+117.34.103.242 - - [03/Oct/2023 15:04:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.130.230 - - [03/Oct/2023 15:04:49] "GET / HTTP/1.1" 200 -
+113.142.130.230 - - [03/Oct/2023 15:04:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.55.190 - - [03/Oct/2023 15:05:05] "GET / HTTP/1.1" 200 -
+113.142.55.190 - - [03/Oct/2023 15:05:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.55.7 - - [03/Oct/2023 15:05:26] "GET / HTTP/1.1" 200 -
+113.142.55.7 - - [03/Oct/2023 15:05:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.103.63 - - [03/Oct/2023 15:05:27] "GET / HTTP/1.1" 200 -
+117.34.103.63 - - [03/Oct/2023 15:05:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+219.144.65.222 - - [03/Oct/2023 15:05:28] "GET / HTTP/1.1" 200 -
+219.144.65.222 - - [03/Oct/2023 15:05:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.76.157.24 - - [03/Oct/2023 15:05:33] "GET / HTTP/1.1" 200 -
+125.76.157.24 - - [03/Oct/2023 15:05:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.173.145 - - [03/Oct/2023 15:05:35] "GET / HTTP/1.1" 200 -
+117.33.173.145 - - [03/Oct/2023 15:05:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.41.174.55 - - [03/Oct/2023 15:05:47] "GET / HTTP/1.1" 200 -
+36.41.174.55 - - [03/Oct/2023 15:05:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.60.255 - - [03/Oct/2023 15:05:53] "GET / HTTP/1.1" 200 -
+113.142.60.255 - - [03/Oct/2023 15:05:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
