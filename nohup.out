@@ -29227,3 +29227,336 @@ with app.app_context(). See the documentation for more information.
 47.103.20.30 - - [17/Oct/2023 14:50:31] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
 47.103.20.30 - - [17/Oct/2023 14:50:31] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
 47.103.20.30 - - [17/Oct/2023 14:50:32] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   37156a1..a7ffe4b  main -> main
+[main d68f539] 2023年 10月 01日 星期日 09:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main 3d30133] 2023年 10月 01日 星期日 14:27:50 CST
+ 2 files changed, 274 insertions(+)
+running...
+[main e38c1ef] 2023年 10月 01日 星期日 19:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 3424129] 2023年 10月 02日 星期一 00:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 2cb666d] 2023年 10月 02日 星期一 05:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 9ad7191] 2023年 10月 02日 星期一 10:27:50 CST
+ 2 files changed, 130 insertions(+)
+running...
+[main 4f94646] 2023年 10月 02日 星期一 15:27:50 CST
+ 2 files changed, 154 insertions(+)
+running...
+[main cbf0238] 2023年 10月 02日 星期一 20:27:50 CST
+ 2 files changed, 64 insertions(+)
+running...
+[main 1852d88] 2023年 10月 03日 星期二 01:27:50 CST
+ 2 files changed, 50 insertions(+)
+running...
+[main 87316c3] 2023年 10月 03日 星期二 06:27:50 CST
+ 2 files changed, 50 insertions(+)
+running...
+[main ad914fa] 2023年 10月 03日 星期二 11:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 2686479] 2023年 10月 03日 星期二 16:27:50 CST
+ 2 files changed, 79 insertions(+)
+running...
+[main 2437d76] 2023年 10月 03日 星期二 21:27:50 CST
+ 2 files changed, 46 insertions(+)
+running...
+[main 77d88af] 2023年 10月 04日 星期三 02:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main ced3b61] 2023年 10月 04日 星期三 07:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main a3853af] 2023年 10月 04日 星期三 12:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 37ca11e] 2023年 10月 04日 星期三 17:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main ad71439] 2023年 10月 04日 星期三 22:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main 3712503] 2023年 10月 05日 星期四 03:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 7d4f77b] 2023年 10月 05日 星期四 08:27:50 CST
+ 2 files changed, 286 insertions(+)
+running...
+[main b0497ae] 2023年 10月 05日 星期四 13:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main d8205b3] 2023年 10月 05日 星期四 18:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 0e089ae] 2023年 10月 05日 星期四 23:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main c49e125] 2023年 10月 06日 星期五 04:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main e394763] 2023年 10月 06日 星期五 09:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main c0f9334] 2023年 10月 06日 星期五 14:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main ebd656f] 2023年 10月 06日 星期五 19:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 183f1e4] 2023年 10月 07日 星期六 00:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main e60f54a] 2023年 10月 07日 星期六 05:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main e370b05] 2023年 10月 07日 星期六 10:27:50 CST
+ 2 files changed, 46 insertions(+)
+running...
+[main 1ffe165] 2023年 10月 07日 星期六 15:27:50 CST
+ 2 files changed, 46 insertions(+)
+running...
+[main eb5d9a4] 2023年 10月 07日 星期六 20:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 822ea84] 2023年 10月 08日 星期日 01:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main bbc525c] 2023年 10月 08日 星期日 06:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 259eb07] 2023年 10月 08日 星期日 11:27:50 CST
+ 2 files changed, 47 insertions(+)
+running...
+[main 5a0b14c] 2023年 10月 08日 星期日 16:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 6163cdf] 2023年 10月 08日 星期日 21:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 526d9e1] 2023年 10月 09日 星期一 02:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main fbbebd7] 2023年 10月 09日 星期一 07:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 0c25dbb] 2023年 10月 09日 星期一 12:27:50 CST
+ 2 files changed, 45 insertions(+)
+running...
+[main 18b0288] 2023年 10月 09日 星期一 17:27:50 CST
+ 2 files changed, 99 insertions(+)
+running...
+[main fbcb2a9] 2023年 10月 09日 星期一 22:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 79c3767] 2023年 10月 10日 星期二 03:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main 7f40a6d] 2023年 10月 10日 星期二 08:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main e61125b] 2023年 10月 10日 星期二 13:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 1dfd915] 2023年 10月 10日 星期二 18:27:50 CST
+ 2 files changed, 47 insertions(+)
+running...
+[main 0892712] 2023年 10月 10日 星期二 23:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main 504ee92] 2023年 10月 11日 星期三 04:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 643a0f6] 2023年 10月 11日 星期三 09:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 3e780d0] 2023年 10月 11日 星期三 14:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main f3a56d3] 2023年 10月 11日 星期三 19:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 620b8f8] 2023年 10月 12日 星期四 00:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main af5ad4f] 2023年 10月 12日 星期四 05:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main d5acd27] 2023年 10月 12日 星期四 10:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 22f16e5] 2023年 10月 12日 星期四 15:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main d23ec54] 2023年 10月 12日 星期四 20:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 4121806] 2023年 10月 13日 星期五 01:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 4860734] 2023年 10月 13日 星期五 06:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main ca88b8c] 2023年 10月 13日 星期五 11:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main 4d1ee5f] 2023年 10月 13日 星期五 16:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main eb924c9] 2023年 10月 13日 星期五 21:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main 3bcf3c2] 2023年 10月 14日 星期六 02:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 9004d9b] 2023年 10月 14日 星期六 07:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main b772191] 2023年 10月 14日 星期六 12:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 2be376c] 2023年 10月 14日 星期六 17:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main e5f010a] 2023年 10月 14日 星期六 22:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main de8b582] 2023年 10月 15日 星期日 03:27:50 CST
+ 2 files changed, 179 insertions(+)
+running...
+[main a26eb9f] 2023年 10月 15日 星期日 08:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main 03adddf] 2023年 10月 15日 星期日 13:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 0531265] 2023年 10月 15日 星期日 18:27:50 CST
+ 2 files changed, 85 insertions(+)
+running...
+[main 56e64f3] 2023年 10月 15日 星期日 23:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 2aa6535] 2023年 10月 16日 星期一 04:27:50 CST
+ 2 files changed, 46 insertions(+)
+running...
+[main 76b86d7] 2023年 10月 16日 星期一 09:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main c4367df] 2023年 10月 16日 星期一 14:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 2fd6296] 2023年 10月 16日 星期一 19:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 33942fa] 2023年 10月 17日 星期二 00:27:50 CST
+ 2 files changed, 85 insertions(+)
+running...
+[main dbf4e49] 2023年 10月 17日 星期二 05:27:50 CST
+ 2 files changed, 50 insertions(+)
+running...
+[main 6584136] 2023年 10月 17日 星期二 10:27:50 CST
+ 2 files changed, 125 insertions(+)
+running...
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-17 20:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a7ffe4bd26f110a75abb9786eb2cac644259e183 but expected 37156a157ca292ff145dcd1f89944ad85eeef335)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-17 20:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+101.132.33.212 - - [17/Oct/2023 15:38:46] "GET / HTTP/1.1" 200 -
+101.132.33.212 - - [17/Oct/2023 15:38:46] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+101.132.33.212 - - [17/Oct/2023 15:38:46] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+101.132.33.212 - - [17/Oct/2023 15:38:46] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+101.132.33.212 - - [17/Oct/2023 15:38:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+101.132.33.212 - - [17/Oct/2023 15:38:47] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+101.132.33.212 - - [17/Oct/2023 15:38:47] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+101.132.33.212 - - [17/Oct/2023 15:38:47] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+101.132.33.212 - - [17/Oct/2023 15:38:47] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+101.132.33.212 - - [17/Oct/2023 15:38:47] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+47.103.15.125 - - [17/Oct/2023 17:00:58] "GET / HTTP/1.1" 200 -
+47.103.15.125 - - [17/Oct/2023 17:00:58] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.103.15.125 - - [17/Oct/2023 17:00:58] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.103.15.125 - - [17/Oct/2023 17:00:59] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.103.15.125 - - [17/Oct/2023 17:00:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.103.15.125 - - [17/Oct/2023 17:00:59] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.103.15.125 - - [17/Oct/2023 17:00:59] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.103.15.125 - - [17/Oct/2023 17:00:59] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.103.15.125 - - [17/Oct/2023 17:00:59] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.103.15.125 - - [17/Oct/2023 17:00:59] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+47.123.4.111 - - [17/Oct/2023 17:32:54] "GET / HTTP/1.1" 200 -
+47.123.4.111 - - [17/Oct/2023 17:32:54] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.123.4.111 - - [17/Oct/2023 17:32:55] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.123.4.111 - - [17/Oct/2023 17:32:55] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.123.4.111 - - [17/Oct/2023 17:32:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.123.4.111 - - [17/Oct/2023 17:32:55] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.123.4.111 - - [17/Oct/2023 17:32:55] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.123.4.111 - - [17/Oct/2023 17:32:55] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.123.4.111 - - [17/Oct/2023 17:32:55] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.123.4.111 - - [17/Oct/2023 17:32:55] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+101.132.41.214 - - [17/Oct/2023 17:55:05] "GET / HTTP/1.1" 200 -
+101.132.41.214 - - [17/Oct/2023 17:55:05] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+101.132.41.214 - - [17/Oct/2023 17:55:05] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+101.132.41.214 - - [17/Oct/2023 17:55:05] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+101.132.41.214 - - [17/Oct/2023 17:55:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+101.132.41.214 - - [17/Oct/2023 17:55:06] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+101.132.41.214 - - [17/Oct/2023 17:55:06] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+101.132.41.214 - - [17/Oct/2023 17:55:06] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+101.132.41.214 - - [17/Oct/2023 17:55:06] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+101.132.41.214 - - [17/Oct/2023 17:55:06] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+47.103.23.88 - - [17/Oct/2023 18:26:35] "GET / HTTP/1.1" 200 -
+47.103.23.88 - - [17/Oct/2023 18:26:36] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.103.23.88 - - [17/Oct/2023 18:26:36] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.103.23.88 - - [17/Oct/2023 18:26:36] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.103.23.88 - - [17/Oct/2023 18:26:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.103.23.88 - - [17/Oct/2023 18:26:36] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.103.23.88 - - [17/Oct/2023 18:26:36] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.103.23.88 - - [17/Oct/2023 18:26:36] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.103.23.88 - - [17/Oct/2023 18:26:37] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.103.23.88 - - [17/Oct/2023 18:26:37] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+47.103.60.51 - - [17/Oct/2023 19:05:13] "GET / HTTP/1.1" 200 -
+47.103.60.51 - - [17/Oct/2023 19:05:14] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.103.60.51 - - [17/Oct/2023 19:05:14] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.103.60.51 - - [17/Oct/2023 19:05:14] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.103.60.51 - - [17/Oct/2023 19:05:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.103.60.51 - - [17/Oct/2023 19:05:14] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.103.60.51 - - [17/Oct/2023 19:05:14] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.103.60.51 - - [17/Oct/2023 19:05:14] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.103.60.51 - - [17/Oct/2023 19:05:14] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.103.60.51 - - [17/Oct/2023 19:05:14] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
