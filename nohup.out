@@ -31489,3 +31489,89 @@ the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 89.248.165.106 - - [26/Oct/2023 07:13:56] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
 89.248.165.106 - - [26/Oct/2023 07:13:56] "[35m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+To github.com:ashen-23/ashen_boring.git
+   6272798..ccc191a  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-26 14:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   ccc191a..259680e  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-26 14:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+117.33.130.121 - - [26/Oct/2023 10:12:52] "GET / HTTP/1.1" 200 -
+117.33.130.121 - - [26/Oct/2023 10:12:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.245.109 - - [26/Oct/2023 10:13:15] "GET / HTTP/1.1" 200 -
+117.33.245.109 - - [26/Oct/2023 10:13:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.67.164 - - [26/Oct/2023 10:13:18] "GET / HTTP/1.1" 200 -
+113.142.67.164 - - [26/Oct/2023 10:13:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.133.178.255 - - [26/Oct/2023 10:14:38] "GET / HTTP/1.1" 200 -
+113.133.178.255 - - [26/Oct/2023 10:14:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.41.185.164 - - [26/Oct/2023 10:16:18] "GET / HTTP/1.1" 200 -
+36.41.185.164 - - [26/Oct/2023 10:16:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.139.168 - - [26/Oct/2023 10:16:41] "GET / HTTP/1.1" 200 -
+117.33.139.168 - - [26/Oct/2023 10:16:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.124.113.250 - - [26/Oct/2023 10:17:10] "GET / HTTP/1.1" 200 -
+125.124.113.250 - - [26/Oct/2023 10:17:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.215.213 - - [26/Oct/2023 10:18:24] "GET / HTTP/1.1" 200 -
+117.34.215.213 - - [26/Oct/2023 10:18:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+219.144.65.233 - - [26/Oct/2023 10:18:49] "GET / HTTP/1.1" 200 -
+219.144.65.233 - - [26/Oct/2023 10:18:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+198.98.58.111 - - [26/Oct/2023 10:20:18] "GET / HTTP/1.1" 200 -
+36.46.140.207 - - [26/Oct/2023 10:20:35] "GET / HTTP/1.1" 200 -
+36.46.140.207 - - [26/Oct/2023 10:20:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.103.106 - - [26/Oct/2023 10:21:12] "GET / HTTP/1.1" 200 -
+117.34.103.106 - - [26/Oct/2023 10:21:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.122.131 - - [26/Oct/2023 10:22:41] "GET / HTTP/1.1" 200 -
+117.34.122.131 - - [26/Oct/2023 10:22:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.240.190 - - [26/Oct/2023 10:23:08] "GET / HTTP/1.1" 200 -
+117.33.240.190 - - [26/Oct/2023 10:23:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.120.115 - - [26/Oct/2023 10:23:48] "GET / HTTP/1.1" 200 -
+117.34.120.115 - - [26/Oct/2023 10:23:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.152.205 - - [26/Oct/2023 10:24:29] "GET / HTTP/1.1" 200 -
+113.142.152.205 - - [26/Oct/2023 10:24:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.34.103.106 - - [26/Oct/2023 10:25:38] "GET / HTTP/1.1" 200 -
+117.34.103.106 - - [26/Oct/2023 10:25:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.41.186.86 - - [26/Oct/2023 10:26:10] "GET / HTTP/1.1" 200 -
+36.41.186.86 - - [26/Oct/2023 10:26:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.177.36 - - [26/Oct/2023 10:32:17] "GET / HTTP/1.1" 200 -
+117.33.177.36 - - [26/Oct/2023 10:32:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+8.142.104.65 - - [26/Oct/2023 12:41:56] "GET http://proxy.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.36.178 - - [26/Oct/2023 12:41:57] "GET http://proxy.ashen23.site/ HTTP/1.1" 200 -
+47.92.68.55 - - [26/Oct/2023 12:41:57] "[33mGET http://proxy.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+8.142.87.162 - - [26/Oct/2023 13:06:30] "GET http://tool.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.72.15 - - [26/Oct/2023 13:06:31] "GET http://tool.ashen23.site/ HTTP/1.1" 200 -
+8.142.31.72 - - [26/Oct/2023 13:06:31] "[33mGET http://tool.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+134.122.41.53 - - [26/Oct/2023 13:07:06] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+134.122.41.53 - - [26/Oct/2023 13:07:06] "[35m[1mSSH-2.0-OpenSSH[0m" HTTPStatus.BAD_REQUEST -
+47.92.78.77 - - [26/Oct/2023 13:09:07] "GET http://registry.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.73.109 - - [26/Oct/2023 13:09:07] "GET http://registry.ashen23.site/ HTTP/1.1" 200 -
+47.92.78.126 - - [26/Oct/2023 13:09:07] "[33mGET http://registry.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
