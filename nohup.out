@@ -31997,3 +31997,70 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   b725fcc..0ab157e  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-28 21:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   0ab157e..7ec09d1  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-28 21:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+87.236.176.46 - - [28/Oct/2023 17:39:14] "GET / HTTP/1.1" 200 -
+106.3.146.195 - - [28/Oct/2023 17:41:09] code 400, message Bad request version ("4ü(OD_á\x00_Þä\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+106.3.146.195 - - [28/Oct/2023 17:41:09] "[35m[1m\x16\x03\x01\x01 \x01\x00\x01\x1c\x03\x03ù2±ºü{º¢µÄ\x12\x81´C\x98\x1c2ñ\x00\x9dw®Ï\x8b\x82ºCñÓ°Þ% ìþ\x9bd~­ÛW÷k­çöíE\x13ªÝþ5 4ü(OD_á\x00_Þä\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03ù<\x90ï0Óª\x86')
+106.3.146.195 - - [28/Oct/2023 17:41:09] "[35m[1m\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03ù<\x90ï0Óª\x86\x0b½\x12¥ùvA®[-t5Ê±©þÛ\x8c\x19#)JUw\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:09] code 400, message Bad request version ('.7êõG\x00\x00\x12À')
+106.3.146.195 - - [28/Oct/2023 17:41:09] "[35m[1m\x16\x03\x01\x00c\x01\x00\x00_\x03\x02í\x0d\x1b\x16\x9d±îQBKEðV\\Þ\x04\x04,ý\x17HJ\x13]\x8f\x99\x0d.7êõG\x00\x00\x12À[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:09] code 400, message Bad request version ('\x0f\x0el]\x17%³Õæ\x00\x00\x12À')
+106.3.146.195 - - [28/Oct/2023 17:41:09] "[35m[1m\x16\x03\x01\x00c\x01\x00\x00_\x03\x01®"\x13\x8b\x87-LIW«ÖÕöÌ ²­\x93´·Í"\x1d\x0f\x0el]\x17%³Õæ\x00\x00\x12À[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:12] code 400, message Bad request version ("tÂ\x84,\x19þOÁ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+106.3.146.195 - - [28/Oct/2023 17:41:12] "[35m[1m\x16\x03\x01\x01 \x01\x00\x01\x1c\x03\x03\x1a\x04\x88Ü\x84\x09©MÄ.è:âkèÀ"Ó\x11ÑÔ¬\x15I¿¨ùPS\x8b¤Æ ÀO+Ó\x93Î\x02þ\x1b\x8e\x90\x8f\x7fö\x94\x81\x9daL%µÂ\x95\x0ctÂ\x84,\x19þOÁ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03\x9eê¤\x9aì\x86Çç/Ù»\x8c#ä{>l³F¹Hÿ\x7fÌ³ø')
+106.3.146.195 - - [28/Oct/2023 17:41:12] "[35m[1m\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03\x9eê¤\x9aì\x86Çç/Ù»\x8c#ä{>l³F¹Hÿ\x7fÌ³ø\x0cübdÑZ\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:12] code 400, message Bad request version ('2?9\x12W\x144\x9b\x8fÜJÜÜ\x00\x00\x12À')
+106.3.146.195 - - [28/Oct/2023 17:41:12] "[35m[1m\x16\x03\x01\x00c\x01\x00\x00_\x03\x02j\x1d\x07\x1cíØ­ë\x1e\x17±ÚéÂC:Qa 2?9\x12W\x144\x9b\x8fÜJÜÜ\x00\x00\x12À[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00c\x01\x00\x00_\x03\x01øÓ\x92\x82¡A\x1bæy\x15Yf£Õ\x1bÓS\x01¶\x8ez')
+106.3.146.195 - - [28/Oct/2023 17:41:12] "[35m[1m\x16\x03\x01\x00c\x01\x00\x00_\x03\x01øÓ\x92\x82¡A\x1bæy\x15Yf£Õ\x1bÓS\x01¶\x8ez\x1f\x1aZ;\x8aÁ\x88¢\x14qv\x00\x00\x12À[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:12] "GET / HTTP/1.1" 200 -
+106.3.146.195 - - [28/Oct/2023 17:41:12] code 400, message Bad request version ('\x8b\x03wô}\x96¾f')
+106.3.146.195 - - [28/Oct/2023 17:41:12] "[35m[1m\x16\x03\x01\x01 \x01\x00\x01\x1c\x03\x03\x8fßÓqûn©\x1dòõË \x8b\x03wô}\x96¾f[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03WºQ\x12¨A~÷®\x87_ÆoÒôt\x87\x1a³\x84µ¶oG`R©')
+106.3.146.195 - - [28/Oct/2023 17:41:12] "[35m[1m\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03WºQ\x12¨A~÷®\x87_ÆoÒôt\x87\x1a³\x84µ¶oG`R©\x1dÉ\x03\x07ó\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:12] code 400, message Bad request version ('EhÝ\x00\x00\x12À')
+106.3.146.195 - - [28/Oct/2023 17:41:12] "[35m[1m\x16\x03\x01\x00c\x01\x00\x00_\x03\x02îc´!\x86ÑÙvA[\x9c$\x0c\x84Ûòe\x04Ø«\x9aæ+\x9aÍ?Õ?\x1fEhÝ\x00\x00\x12À[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:12] code 400, message Bad request syntax ('\x16\x03\x01\x00c\x01\x00\x00_\x03\x01.z.MØyõí¤Ô¬¿ÔU\x08u(»/\x01¤áP\x06ldÖø{\x91\x88µ\x00\x00\x12À')
+106.3.146.195 - - [28/Oct/2023 17:41:12] "[35m[1m\x16\x03\x01\x00c\x01\x00\x00_\x03\x01.z.MØyõí¤Ô¬¿ÔU\x08u(»/\x01¤áP\x06ldÖø{\x91\x88µ\x00\x00\x12À[0m" HTTPStatus.BAD_REQUEST -
+106.3.146.195 - - [28/Oct/2023 17:41:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+92.63.196.54 - - [28/Oct/2023 21:16:02] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+92.63.196.54 - - [28/Oct/2023 21:16:02] "[35m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
