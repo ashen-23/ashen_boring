@@ -32281,3 +32281,42 @@ with app.app_context(). See the documentation for more information.
 101.133.135.162 - - [29/Oct/2023 06:30:08] code 400, message Bad request version ("h\x81\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
 101.133.135.162 - - [29/Oct/2023 06:30:08] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x0f\x9b,Í>÷gµ\\VM\x9dó|\x7fÜh\x8e\x06\x0bã\x82ÜZ·4Q\x095Úo¨ ö\x01\x0c%ñiOÝ9zù,t´§d¾ÌNê+ÌÓ^\x949_\x1d\x82\x85h\x81\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
 101.133.135.162 - - [29/Oct/2023 06:30:08] "GET / HTTP/1.1" 200 -
+To github.com:ashen-23/ashen_boring.git
+   13cf8e3..cb70ac4  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-29 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   cb70ac4..5ef6d1f  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-10-29 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+198.98.58.111 - - [29/Oct/2023 07:37:12] "GET / HTTP/1.1" 200 -
