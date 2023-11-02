@@ -33284,3 +33284,136 @@ with app.app_context(). See the documentation for more information.
 101.133.146.220 - - [02/Nov/2023 09:48:30] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
 101.133.146.220 - - [02/Nov/2023 09:48:30] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
 101.133.146.220 - - [02/Nov/2023 09:48:31] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   5b66819..e5951b0  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-11-02 16:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   e5951b0..840c8a8  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-11-02 16:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+101.132.36.24 - - [02/Nov/2023 11:32:47] "GET / HTTP/1.1" 200 -
+101.132.36.24 - - [02/Nov/2023 11:32:47] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+101.132.36.24 - - [02/Nov/2023 11:32:47] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+101.132.36.24 - - [02/Nov/2023 11:32:48] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+101.132.36.24 - - [02/Nov/2023 11:32:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+101.132.36.24 - - [02/Nov/2023 11:32:48] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+101.132.36.24 - - [02/Nov/2023 11:32:48] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+101.132.36.24 - - [02/Nov/2023 11:32:48] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+101.132.36.24 - - [02/Nov/2023 11:32:48] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+101.132.36.24 - - [02/Nov/2023 11:32:49] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+101.133.163.156 - - [02/Nov/2023 11:51:58] "GET / HTTP/1.1" 200 -
+101.133.163.156 - - [02/Nov/2023 11:51:58] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+101.133.163.156 - - [02/Nov/2023 11:51:58] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+101.133.163.156 - - [02/Nov/2023 11:51:58] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+101.133.163.156 - - [02/Nov/2023 11:51:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+101.133.163.156 - - [02/Nov/2023 11:51:59] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+101.133.163.156 - - [02/Nov/2023 11:51:59] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+101.133.163.156 - - [02/Nov/2023 11:51:59] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+101.133.163.156 - - [02/Nov/2023 11:51:59] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+101.133.163.156 - - [02/Nov/2023 11:51:59] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+47.103.43.121 - - [02/Nov/2023 12:15:58] "GET / HTTP/1.1" 200 -
+47.103.43.121 - - [02/Nov/2023 12:15:58] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.103.43.121 - - [02/Nov/2023 12:15:58] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.103.43.121 - - [02/Nov/2023 12:15:59] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.103.43.121 - - [02/Nov/2023 12:15:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.103.43.121 - - [02/Nov/2023 12:15:59] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.103.43.121 - - [02/Nov/2023 12:15:59] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.103.43.121 - - [02/Nov/2023 12:15:59] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.103.43.121 - - [02/Nov/2023 12:15:59] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.103.43.121 - - [02/Nov/2023 12:15:59] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+141.98.11.58 - - [02/Nov/2023 12:34:18] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+141.98.11.58 - - [02/Nov/2023 12:34:18] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+89.248.165.48 - - [02/Nov/2023 12:55:48] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+89.248.165.48 - - [02/Nov/2023 12:55:48] "[35m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+47.103.98.112 - - [02/Nov/2023 13:20:31] "GET / HTTP/1.1" 200 -
+47.103.98.112 - - [02/Nov/2023 13:20:31] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.103.98.112 - - [02/Nov/2023 13:20:31] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.103.98.112 - - [02/Nov/2023 13:20:32] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.103.98.112 - - [02/Nov/2023 13:20:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.103.98.112 - - [02/Nov/2023 13:20:32] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.103.98.112 - - [02/Nov/2023 13:20:32] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.103.98.112 - - [02/Nov/2023 13:20:32] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.103.98.112 - - [02/Nov/2023 13:20:32] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.103.98.112 - - [02/Nov/2023 13:20:32] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+47.102.128.22 - - [02/Nov/2023 13:48:05] "GET / HTTP/1.1" 200 -
+47.102.128.22 - - [02/Nov/2023 13:48:06] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.102.128.22 - - [02/Nov/2023 13:48:06] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.102.128.22 - - [02/Nov/2023 13:48:06] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.102.128.22 - - [02/Nov/2023 13:48:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.102.128.22 - - [02/Nov/2023 13:48:06] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.102.128.22 - - [02/Nov/2023 13:48:06] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.102.128.22 - - [02/Nov/2023 13:48:06] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.102.128.22 - - [02/Nov/2023 13:48:06] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.102.128.22 - - [02/Nov/2023 13:48:06] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+47.102.159.242 - - [02/Nov/2023 13:59:03] "GET / HTTP/1.1" 200 -
+47.102.159.242 - - [02/Nov/2023 13:59:03] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.102.159.242 - - [02/Nov/2023 13:59:04] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.102.159.242 - - [02/Nov/2023 13:59:04] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.102.159.242 - - [02/Nov/2023 13:59:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.102.159.242 - - [02/Nov/2023 13:59:04] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.102.159.242 - - [02/Nov/2023 13:59:04] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.102.159.242 - - [02/Nov/2023 13:59:04] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.102.159.242 - - [02/Nov/2023 13:59:04] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.102.159.242 - - [02/Nov/2023 13:59:04] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+101.132.36.40 - - [02/Nov/2023 14:23:47] "GET / HTTP/1.1" 200 -
+101.132.36.40 - - [02/Nov/2023 14:23:47] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+101.132.36.40 - - [02/Nov/2023 14:23:47] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+101.132.36.40 - - [02/Nov/2023 14:23:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+101.132.36.40 - - [02/Nov/2023 14:23:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+101.132.36.40 - - [02/Nov/2023 14:23:48] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+101.132.36.40 - - [02/Nov/2023 14:23:48] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+101.132.36.40 - - [02/Nov/2023 14:23:48] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+101.132.36.40 - - [02/Nov/2023 14:23:48] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+101.132.36.40 - - [02/Nov/2023 14:23:48] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+139.196.81.41 - - [02/Nov/2023 15:04:22] "GET / HTTP/1.1" 200 -
+139.196.81.41 - - [02/Nov/2023 15:04:22] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+139.196.81.41 - - [02/Nov/2023 15:04:22] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+139.196.81.41 - - [02/Nov/2023 15:04:22] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+139.196.81.41 - - [02/Nov/2023 15:04:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+139.196.81.41 - - [02/Nov/2023 15:04:23] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+139.196.81.41 - - [02/Nov/2023 15:04:23] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+139.196.81.41 - - [02/Nov/2023 15:04:23] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+139.196.81.41 - - [02/Nov/2023 15:04:23] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+139.196.81.41 - - [02/Nov/2023 15:04:23] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+94.102.61.39 - - [02/Nov/2023 15:44:06] "GET / HTTP/1.1" 200 -
+139.196.86.187 - - [02/Nov/2023 15:54:55] "GET / HTTP/1.1" 200 -
+139.196.86.187 - - [02/Nov/2023 15:54:55] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+139.196.86.187 - - [02/Nov/2023 15:54:55] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+139.196.86.187 - - [02/Nov/2023 15:54:55] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+139.196.86.187 - - [02/Nov/2023 15:54:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+139.196.86.187 - - [02/Nov/2023 15:54:55] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+139.196.86.187 - - [02/Nov/2023 15:54:56] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+139.196.86.187 - - [02/Nov/2023 15:54:56] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+139.196.86.187 - - [02/Nov/2023 15:54:56] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+139.196.86.187 - - [02/Nov/2023 15:54:56] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
