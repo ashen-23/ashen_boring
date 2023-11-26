@@ -39739,3 +39739,138 @@ with app.app_context(). See the documentation for more information.
 114.132.71.67 - - [27/Nov/2023 01:00:23] "GET / HTTP/1.1" 200 -
 114.132.71.67 - - [27/Nov/2023 01:00:24] "GET / HTTP/1.1" 200 -
 114.132.71.67 - - [27/Nov/2023 01:00:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   60a1986..ec4c8f6  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-11-27 06:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at ec4c8f632926e5d039f7239f112a1bb1a05f5e79 but expected 60a1986094ffb5b655d682a2c10edd22933b28b6)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-11-27 06:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+114.132.71.67 - - [27/Nov/2023 01:33:06] code 400, message Bad request syntax ('ZZ')
+114.132.71.67 - - [27/Nov/2023 01:33:06] "[35m[1mZZ[0m" HTTPStatus.BAD_REQUEST -
+114.132.71.67 - - [27/Nov/2023 02:53:39] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ï\x006')
+114.132.71.67 - - [27/Nov/2023 02:53:39] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ï\x006[0m" HTTPStatus.BAD_REQUEST -
+114.132.71.67 - - [27/Nov/2023 02:53:39] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 02:54:45] "GET / HTTP/1.0" 200 -
+114.132.71.67 - - [27/Nov/2023 03:12:47] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 03:14:39] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 03:14:44] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 03:14:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+114.132.71.67 - - [27/Nov/2023 03:14:45] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 03:14:45] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 03:14:45] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 03:14:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+114.132.71.67 - - [27/Nov/2023 03:52:31] code 400, message Bad request syntax ('ZZ')
+114.132.71.67 - - [27/Nov/2023 03:52:31] "[35m[1mZZ[0m" HTTPStatus.BAD_REQUEST -
+114.132.71.67 - - [27/Nov/2023 05:16:48] code 400, message Bad request version ('À\x13À')
+114.132.71.67 - - [27/Nov/2023 05:16:48] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x90W%¿Fw\x0b:0\x7f\x92\\öé¶£cÝ\x89oþÑO\x80ëù"Ún\x9d\x83\x14 ¦Ê\x8cé\x9d\x12ÿL\x9d\x89ù\x18?º®\x0eW¦¾\x0e\x05\x17\x12ZÚ>(÷ª\x84PD\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+114.132.71.67 - - [27/Nov/2023 05:16:48] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 05:18:30] "GET / HTTP/1.0" 200 -
+114.132.71.67 - - [27/Nov/2023 05:36:32] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 05:39:56] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 05:40:01] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 05:40:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+114.132.71.67 - - [27/Nov/2023 05:40:01] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 05:40:01] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 05:40:02] "GET / HTTP/1.1" 200 -
+114.132.71.67 - - [27/Nov/2023 05:40:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+85.239.54.45 - - [27/Nov/2023 06:00:20] "GET / HTTP/1.0" 200 -
+85.239.54.45 - - [27/Nov/2023 06:00:21] "OPTIONS / HTTP/1.0" 200 -
+85.239.54.45 - - [27/Nov/2023 06:00:21] code 400, message Bad request version ('RTSP/1.0')
+85.239.54.45 - - [27/Nov/2023 06:00:21] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:27] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+85.239.54.45 - - [27/Nov/2023 06:00:27] "[35m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:32] code 400, message Bad HTTP/0.9 request type ('\x00')
+85.239.54.45 - - [27/Nov/2023 06:00:32] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:37] code 400, message Bad HTTP/0.9 request type ('\x00')
+85.239.54.45 - - [27/Nov/2023 06:00:37] "[35m[1m\x00\x0c\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:38] code 400, message Bad request syntax ('HELP')
+85.239.54.45 - - [27/Nov/2023 06:00:38] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:38] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+85.239.54.45 - - [27/Nov/2023 06:00:38] "[35m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+85.239.54.45 - - [27/Nov/2023 06:00:39] "[35m[1m\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie: mstshash=nmap[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:39] code 400, message Bad request version ('\x00/\x00')
+85.239.54.45 - - [27/Nov/2023 06:00:39] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:39] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+85.239.54.45 - - [27/Nov/2023 06:00:39] "[35m[1m\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:45] code 400, message Bad request version ('0.12\x00')
+85.239.54.45 - - [27/Nov/2023 06:00:45] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:50] code 400, message Bad HTTP/0.9 request type ('l\x00')
+85.239.54.45 - - [27/Nov/2023 06:00:50] "[35m[1ml\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:50] "[33mGET /nice%20ports,/Trinity.txt.bak HTTP/1.0[0m" 404 -
+85.239.54.45 - - [27/Nov/2023 06:00:51] code 400, message Bad request syntax ('\x01default')
+85.239.54.45 - - [27/Nov/2023 06:00:51] "[35m[1m\x01default[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:52] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+85.239.54.45 - - [27/Nov/2023 06:00:52] "[35m[1m0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:58] code 400, message Bad HTTP/0.9 request type ('0')
+85.239.54.45 - - [27/Nov/2023 06:00:58] "[35m[1m0\x0c\x02\x01\x01`\x07\x02\x01\x02\x04\x00\x80\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:00:58] code 400, message Bad request version ('SIP/2.0')
+85.239.54.45 - - [27/Nov/2023 06:00:58] "[35m[1mOPTIONS sip:nm SIP/2.0[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:03] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+85.239.54.45 - - [27/Nov/2023 06:01:03] "[35m[1mTNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+85.239.54.45 - - [27/Nov/2023 06:01:09] "[35m[1m\x03\x00\x00\x0b\x06à\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:14] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+85.239.54.45 - - [27/Nov/2023 06:01:14] "[35m[1mDmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:19] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+85.239.54.45 - - [27/Nov/2023 06:01:19] "[35m[1m:\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x1f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:24] code 400, message Bad request syntax ('JRMI\x00\x02K')
+85.239.54.45 - - [27/Nov/2023 06:01:24] "[35m[1mJRMI\x00\x02K[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:29] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+85.239.54.45 - - [27/Nov/2023 06:01:29] "[35m[1m\x01\x00\x00ýÎú\x0b° \x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x000\x00.\x000\x00.\x002\x009\x008\x000\x00;\x00 \x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:36] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+85.239.54.45 - - [27/Nov/2023 06:01:36] "[35m[1m\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00 \x00:\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x004æ\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00(CONNECT_DATA=(COMMAND=version))[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:41] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+85.239.54.45 - - [27/Nov/2023 06:01:41] "[35m[1m\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00\x0c\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:47] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+85.239.54.45 - - [27/Nov/2023 06:01:47] "[35m[1m\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:01:52] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+85.239.54.45 - - [27/Nov/2023 06:01:52] "[35m[1mGIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:05:12] code 400, message Bad request version ('\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+85.239.54.45 - - [27/Nov/2023 06:05:12] "[35m[1m\x80\x00\x00(-\x0c\x15S\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:05:22] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x0e\x9ebQ\x81%c\x9a\x14AU\x12c"<JÜÈ')
+85.239.54.45 - - [27/Nov/2023 06:05:22] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x0e\x9ebQ\x81%c\x9a\x14AU\x12c"<JÜÈ jl\x8aù¼Z.4÷[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:05:22] code 400, message Bad request version ('\x81\x87\x00\x00*À+À/\x00\x9eÌ©Ì¨ÌªÀ')
+85.239.54.45 - - [27/Nov/2023 06:05:22] "[35m[1m\x16\x03\x01\x00¡\x01\x00\x00\x9d\x03\x03\x0c¸\x13Á¾râ\x93Ì\x99\x80\x11(àô{%t[\x89\x01±\x1c\x18âK¯Ý\\\x1f\x81\x87\x00\x00*À+À/\x00\x9eÌ©Ì¨ÌªÀ[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:05:23] "GET / HTTP/1.1" 200 -
+85.239.54.45 - - [27/Nov/2023 06:06:02] code 400, message Bad request version ('À\x13À')
+85.239.54.45 - - [27/Nov/2023 06:06:02] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03|#Ä£jæh!Mï»èûM$Á¥+\x8f\x90ûÐñí35¾ÄåcÿÄ \x8fÍg«\x139zOû)f\x7fk\x8f\x09´ö\x99Y\x9bá½0øv*+\x8dus©t\x00&Ì©Ì¨À+À/À,À0À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:06:02] code 400, message Bad request version ('2"[[4A9ëà)Zy[\x82\x96\x1bðAáÙ\x00\x00*À+À/\x00\x9eÌ©Ì¨ÌªÀ')
+85.239.54.45 - - [27/Nov/2023 06:06:02] "[35m[1m\x16\x03\x01\x00¡\x01\x00\x00\x9d\x03\x03äe,ÿ¬c\x87 O9\x1d 2"[[4A9ëà)Zy[\x82\x96\x1bðAáÙ\x00\x00*À+À/\x00\x9eÌ©Ì¨ÌªÀ[0m" HTTPStatus.BAD_REQUEST -
+85.239.54.45 - - [27/Nov/2023 06:06:03] "GET / HTTP/1.1" 200 -
+85.239.54.45 - - [27/Nov/2023 06:06:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+114.132.71.67 - - [27/Nov/2023 06:09:42] code 400, message Bad request syntax ('ZZ')
+114.132.71.67 - - [27/Nov/2023 06:09:42] "[35m[1mZZ[0m" HTTPStatus.BAD_REQUEST -
