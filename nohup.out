@@ -40795,3 +40795,68 @@ with app.app_context(). See the documentation for more information.
 47.92.70.66 - - [01/Dec/2023 16:36:01] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
 194.26.135.130 - - [01/Dec/2023 16:51:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
 194.26.135.130 - - [01/Dec/2023 16:51:52] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+To github.com:ashen-23/ashen_boring.git
+   77b8392..e0d638d  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-02 01:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at e0d638dbd2e7f42b063062aeaf06fed853fb81f0 but expected 77b839296298d4d3dd2b80d55d82855585177c26)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-02 01:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+123.56.155.157 - - [01/Dec/2023 21:17:44] "GET / HTTP/1.0" 200 -
+123.56.155.157 - - [01/Dec/2023 21:17:44] "OPTIONS / HTTP/1.0" 200 -
+123.56.155.157 - - [01/Dec/2023 21:17:45] code 400, message Bad request version ('RTSP/1.0')
+123.56.155.157 - - [01/Dec/2023 21:17:45] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:17:50] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+123.56.155.157 - - [01/Dec/2023 21:17:50] "[35m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:17:55] code 400, message Bad HTTP/0.9 request type ('\x00')
+123.56.155.157 - - [01/Dec/2023 21:17:55] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:17:55] code 400, message Bad request syntax ('HELP')
+123.56.155.157 - - [01/Dec/2023 21:17:55] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:17:55] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+123.56.155.157 - - [01/Dec/2023 21:17:55] "[35m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:17:55] code 400, message Bad request version ('\x00/\x00')
+123.56.155.157 - - [01/Dec/2023 21:17:55] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:17:55] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+123.56.155.157 - - [01/Dec/2023 21:17:55] "[35m[1m\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:18:00] code 400, message Bad request version ('0.12\x00')
+123.56.155.157 - - [01/Dec/2023 21:18:00] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:18:05] code 400, message Bad HTTP/0.9 request type ('l\x00')
+123.56.155.157 - - [01/Dec/2023 21:18:05] "[35m[1ml\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:18:05] code 400, message Bad request version ('SIP/2.0')
+123.56.155.157 - - [01/Dec/2023 21:18:05] "[35m[1mOPTIONS sip:nm SIP/2.0[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:18:23] code 400, message Bad request version ('\x00/\x00')
+123.56.155.157 - - [01/Dec/2023 21:18:23] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+123.56.155.157 - - [01/Dec/2023 21:18:39] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+123.56.155.157 - - [01/Dec/2023 21:18:39] "[35m[1m\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001[0m" HTTPStatus.BAD_REQUEST -
