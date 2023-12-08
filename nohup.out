@@ -42300,3 +42300,47 @@ with app.app_context(). See the documentation for more information.
 47.92.79.156 - - [08/Dec/2023 04:42:54] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
 8.142.31.72 - - [08/Dec/2023 04:42:54] "GET http://39.100.66.203/ HTTP/1.1" 200 -
 8.142.42.74 - - [08/Dec/2023 04:42:54] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   a3bab47..5671ae8  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-08 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   5671ae8..51bd780  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-08 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+91.92.251.48 - - [08/Dec/2023 10:35:46] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+91.92.251.48 - - [08/Dec/2023 10:35:46] "[35m[1mSSH-2.0-OpenSSH[0m" HTTPStatus.BAD_REQUEST -
+167.248.133.38 - - [08/Dec/2023 12:25:47] "GET / HTTP/1.1" 200 -
+167.248.133.38 - - [08/Dec/2023 12:25:48] code 505, message Invalid HTTP version (2.0)
+167.248.133.38 - - [08/Dec/2023 12:25:48] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.38 - - [08/Dec/2023 12:25:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
