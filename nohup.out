@@ -45156,3 +45156,276 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   45b28a7..3b8d43e  main -> main
+[main 3b7a271] 2023年 12月 05日 星期二 09:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 3439418] 2023年 12月 05日 星期二 14:27:50 CST
+ 2 files changed, 277 insertions(+)
+running...
+[main 6052b42] 2023年 12月 05日 星期二 19:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 8bdd135] 2023年 12月 06日 星期三 00:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main 9cb2232] 2023年 12月 06日 星期三 05:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 7e6bfe8] 2023年 12月 06日 星期三 10:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main fb099fb] 2023年 12月 06日 星期三 15:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main c15bc28] 2023年 12月 06日 星期三 20:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main 7a30e88] 2023年 12月 07日 星期四 01:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 6628e66] 2023年 12月 07日 星期四 06:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 1ce25ff] 2023年 12月 07日 星期四 11:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main bd7a6d1] 2023年 12月 07日 星期四 16:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main b695baa] 2023年 12月 07日 星期四 21:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main a3bab47] 2023年 12月 08日 星期五 02:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 5671ae8] 2023年 12月 08日 星期五 07:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main 6099dff] 2023年 12月 08日 星期五 12:27:50 CST
+ 2 files changed, 45 insertions(+)
+running...
+[main 4113f6a] 2023年 12月 08日 星期五 17:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main e63dbc6] 2023年 12月 08日 星期五 22:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 6e88b4b] 2023年 12月 09日 星期六 03:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main d0c9d2d] 2023年 12月 09日 星期六 08:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 0170de4] 2023年 12月 09日 星期六 13:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main 60c1887] 2023年 12月 09日 星期六 18:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 65572d3] 2023年 12月 09日 星期六 23:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 8c74191] 2023年 12月 10日 星期日 04:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 12b61e4] 2023年 12月 10日 星期日 09:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main b7d6406] 2023年 12月 10日 星期日 14:27:50 CST
+ 2 files changed, 47 insertions(+)
+running...
+[main 96cc694] 2023年 12月 10日 星期日 19:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 3cee61b] 2023年 12月 11日 星期一 00:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 0f553a5] 2023年 12月 11日 星期一 05:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 3473f53] 2023年 12月 11日 星期一 10:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main f8c075b] 2023年 12月 11日 星期一 15:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 3817aad] 2023年 12月 11日 星期一 20:27:50 CST
+ 2 files changed, 282 insertions(+)
+running...
+[main bb9c01d] 2023年 12月 12日 星期二 01:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main d45a4bc] 2023年 12月 12日 星期二 06:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main e381ff5] 2023年 12月 12日 星期二 11:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main a3ba8d6] 2023年 12月 12日 星期二 16:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 9878b45] 2023年 12月 12日 星期二 21:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 19707e4] 2023年 12月 13日 星期三 02:27:50 CST
+ 2 files changed, 49 insertions(+)
+running...
+[main 50bc9fb] 2023年 12月 13日 星期三 07:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 10e6038] 2023年 12月 13日 星期三 12:27:50 CST
+ 2 files changed, 87 insertions(+)
+running...
+[main 7714826] 2023年 12月 13日 星期三 17:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 4efaeda] 2023年 12月 13日 星期三 22:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main 198f88d] 2023年 12月 14日 星期四 03:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main b101a5f] 2023年 12月 14日 星期四 08:27:50 CST
+ 2 files changed, 46 insertions(+)
+running...
+[main 107a057] 2023年 12月 14日 星期四 13:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main dd95b72] 2023年 12月 14日 星期四 18:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 4895ef2] 2023年 12月 14日 星期四 23:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 4529a61] 2023年 12月 15日 星期五 04:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 9dbcccf] 2023年 12月 15日 星期五 09:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main de58d82] 2023年 12月 15日 星期五 14:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main f44702e] 2023年 12月 15日 星期五 19:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main fbb62a2] 2023年 12月 16日 星期六 00:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 2c01439] 2023年 12月 16日 星期六 05:27:50 CST
+ 2 files changed, 46 insertions(+)
+running...
+[main 949e7ea] 2023年 12月 16日 星期六 10:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main d4db42d] 2023年 12月 16日 星期六 15:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main a51c919] 2023年 12月 16日 星期六 20:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 12d7ddc] 2023年 12月 17日 星期日 01:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 522eee0] 2023年 12月 17日 星期日 06:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main a00be4f] 2023年 12月 17日 星期日 11:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main b63ffa5] 2023年 12月 17日 星期日 16:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main ed50248] 2023年 12月 17日 星期日 21:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 039bd13] 2023年 12月 18日 星期一 02:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main e6129c2] 2023年 12月 18日 星期一 07:27:50 CST
+ 2 files changed, 43 insertions(+)
+running...
+[main a6cb532] 2023年 12月 18日 星期一 12:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main b774be2] 2023年 12月 18日 星期一 17:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main b3d3223] 2023年 12月 18日 星期一 22:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 697ee8f] 2023年 12月 19日 星期二 03:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 91c420a] 2023年 12月 19日 星期二 08:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 4b61df9] 2023年 12月 19日 星期二 13:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 11ebc1a] 2023年 12月 19日 星期二 18:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 3dc526b] 2023年 12月 19日 星期二 23:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main eef7b83] 2023年 12月 20日 星期三 04:27:50 CST
+ 2 files changed, 44 insertions(+)
+running...
+[main 5fa2360] 2023年 12月 20日 星期三 09:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+[main 86f2bc2] 2023年 12月 20日 星期三 14:27:50 CST
+ 2 files changed, 42 insertions(+)
+running...
+[main ef69fc5] 2023年 12月 20日 星期三 19:27:50 CST
+ 2 files changed, 39 insertions(+)
+running...
+[main 905605c] 2023年 12月 21日 星期四 00:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 6e95ccc] 2023年 12月 21日 星期四 05:27:50 CST
+ 2 files changed, 40 insertions(+)
+running...
+[main 45b28a7] 2023年 12月 21日 星期四 10:27:50 CST
+ 2 files changed, 41 insertions(+)
+running...
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-21 20:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3b8d43e84e7c670dfead6e7f9129c10c59ad6abe but expected 45b28a78e48682c167469e7ae71230be9cc02b01)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-21 20:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
