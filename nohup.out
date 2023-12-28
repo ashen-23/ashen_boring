@@ -47278,3 +47278,52 @@ the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 52.81.17.152 - - [28/Dec/2023 04:24:12] "[33mGET /.DS_Store HTTP/1.1[0m" 404 -
 87.236.176.214 - - [28/Dec/2023 06:20:00] "GET / HTTP/1.1" 200 -
+To github.com:ashen-23/ashen_boring.git
+   85aad67..3c30d9e  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-28 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3c30d9e59a2a93a2d584b52dfd21f389d0e700af but expected 85aad67c89415bf92b86be5bf1dce3d2ee238e20)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-28 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+47.92.31.57 - - [28/Dec/2023 09:18:51] code 400, message Bad request version ("ÜßnÀ[_þ\x8cyíó|\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+47.92.31.57 - - [28/Dec/2023 09:18:51] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x039\x1d ®âJÅ 2ä@\x90\x1c=·ÅÏ\x88É\x0dÜßnÀ[_þ\x8cyíó|\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+35.203.210.46 - - [28/Dec/2023 10:42:54] "GET / HTTP/1.1" 200 -
+113.215.188.241 - - [28/Dec/2023 10:49:37] code 400, message Bad request version ("5[\x97E\x9e\x92{\x82³Ä?¾\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+113.215.188.241 - - [28/Dec/2023 10:49:37] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03gúøâÕF\x86wØÔ\x1132·o\x82 \x0cê\x1c5[\x97E\x9e\x92{\x82³Ä?¾\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+167.94.138.125 - - [28/Dec/2023 11:05:38] "GET / HTTP/1.1" 200 -
+167.94.138.125 - - [28/Dec/2023 11:05:39] code 505, message Invalid HTTP version (2.0)
+167.94.138.125 - - [28/Dec/2023 11:05:39] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.125 - - [28/Dec/2023 11:05:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+52.80.177.122 - - [28/Dec/2023 11:44:55] "[33mGET /.vscode/sftp.json HTTP/1.1[0m" 404 -
