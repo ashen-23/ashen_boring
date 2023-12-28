@@ -47327,3 +47327,285 @@ with app.app_context(). See the documentation for more information.
 167.94.138.125 - - [28/Dec/2023 11:05:39] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
 167.94.138.125 - - [28/Dec/2023 11:05:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 52.80.177.122 - - [28/Dec/2023 11:44:55] "[33mGET /.vscode/sftp.json HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   3c30d9e..430e39b  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-28 17:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 430e39b2fc8ab43dc2be98858178994c7e3b93d4 but expected 3c30d9e59a2a93a2d584b52dfd21f389d0e700af)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+[main bf36409] 2023年 12月 11日 星期一 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main bb4911b] 2023年 12月 11日 星期一 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 33956c3] 2023年 12月 12日 星期二 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6b89aa3] 2023年 12月 12日 星期二 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5dbf371] 2023年 12月 12日 星期二 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 155aa25] 2023年 12月 12日 星期二 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3afe35b] 2023年 12月 12日 星期二 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c0027cd] 2023年 12月 13日 星期三 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 151d564] 2023年 12月 13日 星期三 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9e7e319] 2023年 12月 13日 星期三 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1dd9e76] 2023年 12月 13日 星期三 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 96a0532] 2023年 12月 13日 星期三 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 16564b1] 2023年 12月 14日 星期四 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a4dd2d1] 2023年 12月 14日 星期四 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main fc4f5bc] 2023年 12月 14日 星期四 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0f540ba] 2023年 12月 14日 星期四 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a673e0a] 2023年 12月 14日 星期四 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9df2af5] 2023年 12月 15日 星期五 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 73b510c] 2023年 12月 15日 星期五 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1377021] 2023年 12月 15日 星期五 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main fb62f76] 2023年 12月 15日 星期五 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 67eb493] 2023年 12月 16日 星期六 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c313914] 2023年 12月 16日 星期六 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8d9a07d] 2023年 12月 16日 星期六 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 49e69bd] 2023年 12月 16日 星期六 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5de1782] 2023年 12月 16日 星期六 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6fea301] 2023年 12月 17日 星期日 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9d09320] 2023年 12月 17日 星期日 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 950d0f3] 2023年 12月 17日 星期日 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 55bc038] 2023年 12月 17日 星期日 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1920276] 2023年 12月 17日 星期日 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d58204d] 2023年 12月 18日 星期一 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3761829] 2023年 12月 18日 星期一 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 64f7ced] 2023年 12月 18日 星期一 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4ee5b1a] 2023年 12月 18日 星期一 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9a01976] 2023年 12月 18日 星期一 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9629464] 2023年 12月 19日 星期二 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main aeb253e] 2023年 12月 19日 星期二 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0988e37] 2023年 12月 19日 星期二 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5175832] 2023年 12月 19日 星期二 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e10809e] 2023年 12月 19日 星期二 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4b08b95] 2023年 12月 20日 星期三 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0c50f75] 2023年 12月 20日 星期三 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ac50eac] 2023年 12月 20日 星期三 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4df3e22] 2023年 12月 20日 星期三 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b884391] 2023年 12月 21日 星期四 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e7250d6] 2023年 12月 21日 星期四 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 087ec88] 2023年 12月 21日 星期四 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b0d4349] 2023年 12月 21日 星期四 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 52c2e19] 2023年 12月 21日 星期四 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ebf0d60] 2023年 12月 22日 星期五 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1d76045] 2023年 12月 22日 星期五 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3278c09] 2023年 12月 22日 星期五 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ceab183] 2023年 12月 22日 星期五 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6896571] 2023年 12月 22日 星期五 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 407edce] 2023年 12月 23日 星期六 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3b773d4] 2023年 12月 23日 星期六 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main cc6641d] 2023年 12月 23日 星期六 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5bcdb4a] 2023年 12月 23日 星期六 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 79d51ce] 2023年 12月 23日 星期六 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c17aed0] 2023年 12月 24日 星期日 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6b88d72] 2023年 12月 24日 星期日 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9527bdf] 2023年 12月 24日 星期日 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6358dd2] 2023年 12月 24日 星期日 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4abc34b] 2023年 12月 24日 星期日 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main bf25f4f] 2023年 12月 25日 星期一 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 328aa8b] 2023年 12月 25日 星期一 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1329869] 2023年 12月 25日 星期一 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 68624c6] 2023年 12月 25日 星期一 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 995e07f] 2023年 12月 26日 星期二 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a8cb007] 2023年 12月 26日 星期二 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 88d8c9f] 2023年 12月 26日 星期二 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 13c15d8] 2023年 12月 26日 星期二 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8889712] 2023年 12月 26日 星期二 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 797f402] 2023年 12月 27日 星期三 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3dbe5fa] 2023年 12月 27日 星期三 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a0a02bf] 2023年 12月 27日 星期三 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 52126ef] 2023年 12月 27日 星期三 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8898b3f] 2023年 12月 27日 星期三 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 85aad67] 2023年 12月 28日 星期四 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f6351d8] 2023年 12月 28日 星期四 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-28 17:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
