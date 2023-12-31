@@ -48169,3 +48169,88 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   2bf1002..31cc5ea  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-31 20:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 31cc5ea443b0ccabf3e5c08fa057267d624cdf5b but expected 2bf1002f51c662952e88b91f2e5765a6472a3c4d)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2023-12-31 20:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+35.203.211.7 - - [31/Dec/2023 15:46:14] "GET / HTTP/1.1" 200 -
+47.100.33.16 - - [31/Dec/2023 18:50:40] "GET / HTTP/1.1" 200 -
+47.100.33.16 - - [31/Dec/2023 18:50:40] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.100.33.16 - - [31/Dec/2023 18:50:40] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.100.33.16 - - [31/Dec/2023 18:50:40] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.100.33.16 - - [31/Dec/2023 18:50:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.100.33.16 - - [31/Dec/2023 18:50:41] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.100.33.16 - - [31/Dec/2023 18:50:41] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.100.33.16 - - [31/Dec/2023 18:50:41] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.100.33.16 - - [31/Dec/2023 18:50:41] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.100.33.16 - - [31/Dec/2023 18:50:41] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+101.132.189.14 - - [31/Dec/2023 18:51:35] "GET / HTTP/1.1" 200 -
+101.132.189.14 - - [31/Dec/2023 18:51:36] "GET / HTTP/1.1" 200 -
+111.7.96.151 - - [31/Dec/2023 19:39:57] code 400, message Bad request version ('À\x13À')
+111.7.96.151 - - [31/Dec/2023 19:39:57] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+111.7.96.151 - - [31/Dec/2023 19:40:07] "GET / HTTP/1.1" 200 -
+36.40.86.172 - - [31/Dec/2023 19:40:11] "GET / HTTP/1.1" 200 -
+36.40.86.172 - - [31/Dec/2023 19:40:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.141.178.176 - - [31/Dec/2023 19:40:12] "GET / HTTP/1.1" 200 -
+113.141.178.176 - - [31/Dec/2023 19:40:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.141.178.176 - - [31/Dec/2023 19:40:13] "GET / HTTP/1.1" 200 -
+113.141.178.176 - - [31/Dec/2023 19:40:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.41.172.122 - - [31/Dec/2023 19:40:13] "GET / HTTP/1.1" 200 -
+36.41.172.122 - - [31/Dec/2023 19:40:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.133.169.65 - - [31/Dec/2023 19:40:21] "GET / HTTP/1.1" 200 -
+113.133.169.65 - - [31/Dec/2023 19:40:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.134.211.13 - - [31/Dec/2023 19:40:22] "GET / HTTP/1.1" 200 -
+113.134.211.13 - - [31/Dec/2023 19:40:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.172.106 - - [31/Dec/2023 19:40:26] "GET / HTTP/1.1" 200 -
+117.33.172.106 - - [31/Dec/2023 19:40:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+115.239.224.178 - - [31/Dec/2023 19:40:28] "GET / HTTP/1.1" 200 -
+115.239.224.178 - - [31/Dec/2023 19:40:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.172.106 - - [31/Dec/2023 19:40:31] "GET / HTTP/1.1" 200 -
+117.33.172.106 - - [31/Dec/2023 19:40:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+219.144.95.9 - - [31/Dec/2023 19:40:34] "GET / HTTP/1.1" 200 -
+219.144.95.9 - - [31/Dec/2023 19:40:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.61.23 - - [31/Dec/2023 19:40:37] "GET / HTTP/1.1" 200 -
+113.142.61.23 - - [31/Dec/2023 19:40:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.137.38.229 - - [31/Dec/2023 19:40:42] "GET / HTTP/1.1" 200 -
+113.137.38.229 - - [31/Dec/2023 19:40:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.55.202 - - [31/Dec/2023 19:41:00] "GET / HTTP/1.1" 200 -
+113.142.55.202 - - [31/Dec/2023 19:41:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.46.148.99 - - [31/Dec/2023 19:41:14] "GET / HTTP/1.1" 200 -
+36.46.148.99 - - [31/Dec/2023 19:41:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.33.224.204 - - [31/Dec/2023 19:42:28] "GET / HTTP/1.1" 200 -
+117.33.224.204 - - [31/Dec/2023 19:42:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
