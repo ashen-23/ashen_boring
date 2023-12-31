@@ -48254,3 +48254,48 @@ with app.app_context(). See the documentation for more information.
 36.46.148.99 - - [31/Dec/2023 19:41:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 117.33.224.204 - - [31/Dec/2023 19:42:28] "GET / HTTP/1.1" 200 -
 117.33.224.204 - - [31/Dec/2023 19:42:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   31cc5ea..a83643a  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-01 01:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a83643a4afd15246ac8294f4578fc53c9d898334 but expected 31cc5ea443b0ccabf3e5c08fa057267d624cdf5b)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-01 01:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+47.92.31.143 - - [31/Dec/2023 20:49:10] "GET http://gelly.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.79.71 - - [31/Dec/2023 20:49:10] "GET http://gelly.ashen23.site/ HTTP/1.1" 200 -
+47.92.70.66 - - [31/Dec/2023 20:49:10] "[33mGET http://gelly.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+113.215.189.244 - - [31/Dec/2023 21:04:26] "GET http://qb.ashen23.site:8801/ HTTP/1.1" 200 -
+219.82.2.110 - - [31/Dec/2023 21:04:26] "GET http://qb.ashen23.site/ HTTP/1.1" 200 -
+113.215.189.222 - - [31/Dec/2023 21:04:26] "[33mGET http://qb.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
