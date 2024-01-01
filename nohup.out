@@ -48344,3 +48344,42 @@ with app.app_context(). See the documentation for more information.
 185.233.19.189 - - [01/Jan/2024 05:48:05] code 400, message Bad request version ('À\x13À')
 185.233.19.189 - - [01/Jan/2024 05:48:05] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x8c3æEP\x15\x92ºft\x9aû\x01¦Èlc§\x88óÃ\x86i}­P *è\x89M\x06 Ôé½ (\x83ì\x95\x10¥\x1ejë\x1dFýRD9\x07¼Ñ·mÐÇÁ'äà©\x90\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
 185.233.19.189 - - [01/Jan/2024 05:48:06] "GET / HTTP/1.1" 200 -
+To github.com:ashen-23/ashen_boring.git
+   199eeee..26716ca  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-01 11:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 26716caf8fa0a8d56e0dc486c68e5bf37c0b1838 but expected 199eeee109ac95d341eed14adb024dc882d9324b)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-01 11:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
