@@ -48510,3 +48510,51 @@ with app.app_context(). See the documentation for more information.
 118.26.39.151 - - [01/Jan/2024 22:22:28] "GET / HTTP/1.1" 200 -
 103.149.26.234 - - [02/Jan/2024 02:22:17] "GET / HTTP/1.1" 200 -
 103.149.26.234 - - [02/Jan/2024 02:22:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   1e33edd..8e3fadb  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-02 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   8e3fadb..b6002f9  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-02 07:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+47.100.12.88 - - [02/Jan/2024 05:56:49] "GET / HTTP/1.1" 200 -
+47.100.12.88 - - [02/Jan/2024 05:56:49] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.100.12.88 - - [02/Jan/2024 05:56:49] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.100.12.88 - - [02/Jan/2024 05:56:49] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.100.12.88 - - [02/Jan/2024 05:56:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.100.12.88 - - [02/Jan/2024 05:56:49] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.100.12.88 - - [02/Jan/2024 05:56:49] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.100.12.88 - - [02/Jan/2024 05:56:50] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.100.12.88 - - [02/Jan/2024 05:56:50] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.100.12.88 - - [02/Jan/2024 05:56:50] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
