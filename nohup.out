@@ -48966,3 +48966,49 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   2ccbc49..78d784d  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-03 13:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   78d784d..9ff3c25  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-03 13:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+35.203.210.148 - - [03/Jan/2024 09:56:35] "GET / HTTP/1.1" 200 -
+167.94.138.33 - - [03/Jan/2024 11:18:57] "GET / HTTP/1.1" 200 -
+167.94.138.33 - - [03/Jan/2024 11:18:57] code 505, message Invalid HTTP version (2.0)
+167.94.138.33 - - [03/Jan/2024 11:18:57] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.33 - - [03/Jan/2024 11:18:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.215.188.20 - - [03/Jan/2024 12:47:37] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
+113.215.189.98 - - [03/Jan/2024 12:47:37] "GET http://39.100.66.203/ HTTP/1.1" 200 -
+113.215.189.94 - - [03/Jan/2024 12:47:37] "[33mGET http://39.100.66.203/favicon.ico HTTP/1.1[0m" 404 -
