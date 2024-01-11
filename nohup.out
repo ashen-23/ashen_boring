@@ -50820,3 +50820,53 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   cc51320..ddb5dd0  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-11 16:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at ddb5dd044ba634e835b872eb4333f8079606af9d but expected cc513201622d5efa6605fa5966913d7481850a98)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-11 16:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+118.26.39.162 - - [11/Jan/2024 11:47:36] code 400, message Bad request syntax ('\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03ýÜfQÙçÜ.\x89')
+118.26.39.162 - - [11/Jan/2024 11:47:36] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03ýÜfQÙçÜ.\x89[0m" HTTPStatus.BAD_REQUEST -
+118.26.39.162 - - [11/Jan/2024 11:47:36] code 400, message Bad request version ('À\x13À')
+118.26.39.162 - - [11/Jan/2024 11:47:36] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x9f7g\x87"ñÓ\x13\x1ba\x1a¸¦ÌsîXD/\x05pøóÄÃ\x09\x1fÛ¦°\x88\x85 /'¾ïÏ²\x0c¶\x90\x7f\x88\x8eá*ÉM`7ùeL Q© |¨A\x155¿\x8f\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+118.26.39.162 - - [11/Jan/2024 11:47:36] "GET / HTTP/1.1" 200 -
+185.233.19.225 - - [11/Jan/2024 11:47:37] code 400, message Bad request version ('À\x13À')
+185.233.19.225 - - [11/Jan/2024 11:47:37] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x1d\x98çâwZÛï¾ÇÊ"½¦\x9b\x17\\%H¦ïF\x04.·F\x9f´\x19\x83îÿ ¸\x83G8MÑ\x01\x1dg¾IøSf\x14¿Ë\x03ßLä9ôÀêcÖËªÉ4s\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+185.233.19.225 - - [11/Jan/2024 11:47:38] code 400, message Bad request version ('À\x13À')
+185.233.19.225 - - [11/Jan/2024 11:47:38] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x06\x8a\x89ÆqAÈ0PF'Æ¸Ç\x7fò\x04\x1aiv\x9c,Í¨N³Å%\x12\x82*´ Ä÷z¿NÃ"_\x97t\x1bØtàl\x05\x8b\x9dà÷é\x1fwÚXQ\x17þ\x06\x19'\x86\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+185.233.19.225 - - [11/Jan/2024 11:47:39] "GET / HTTP/1.1" 200 -
+113.215.188.233 - - [11/Jan/2024 13:10:44] "GET http://39.100.66.203:8801/ HTTP/1.1" 200 -
