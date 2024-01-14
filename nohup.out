@@ -51441,3 +51441,288 @@ This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 162.216.150.221 - - [14/Jan/2024 06:10:55] "GET / HTTP/1.1" 200 -
+To github.com:ashen-23/ashen_boring.git
+   7818180..b009045  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-14 14:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   b009045..e68771a  main -> main
+[main 33bee34] 2023年 12月 28日 星期四 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6d1d03c] 2023年 12月 28日 星期四 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 77de9f7] 2023年 12月 28日 星期四 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0a0258b] 2023年 12月 29日 星期五 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 21a8453] 2023年 12月 29日 星期五 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 827b78a] 2023年 12月 29日 星期五 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2d89b5a] 2023年 12月 29日 星期五 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3e1b3c0] 2023年 12月 29日 星期五 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 330284a] 2023年 12月 30日 星期六 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main aa1a5bf] 2023年 12月 30日 星期六 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4a8079c] 2023年 12月 30日 星期六 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2365f5c] 2023年 12月 30日 星期六 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8005a4d] 2023年 12月 31日 星期日 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9f119c0] 2023年 12月 31日 星期日 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 023294d] 2023年 12月 31日 星期日 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 61735e0] 2023年 12月 31日 星期日 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 23409c8] 2023年 12月 31日 星期日 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 89e85b6] 2024年 01月 01日 星期一 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 32f2a4a] 2024年 01月 01日 星期一 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5001792] 2024年 01月 01日 星期一 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 17c3618] 2024年 01月 01日 星期一 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b95e578] 2024年 01月 01日 星期一 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b6002f9] 2024年 01月 02日 星期二 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e086a6f] 2024年 01月 02日 星期二 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4f9ba3e] 2024年 01月 02日 星期二 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a3490b5] 2024年 01月 02日 星期二 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4b015b6] 2024年 01月 02日 星期二 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2ccbc49] 2024年 01月 03日 星期三 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9ff3c25] 2024年 01月 03日 星期三 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e04d328] 2024年 01月 03日 星期三 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e908e56] 2024年 01月 03日 星期三 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3903f69] 2024年 01月 03日 星期三 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3fc19f0] 2024年 01月 04日 星期四 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7b845fa] 2024年 01月 04日 星期四 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f9041a3] 2024年 01月 04日 星期四 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 021c7d9] 2024年 01月 04日 星期四 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c217aa2] 2024年 01月 05日 星期五 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ece34f2] 2024年 01月 05日 星期五 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0a4e5ab] 2024年 01月 05日 星期五 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f714b09] 2024年 01月 05日 星期五 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ea6f5bc] 2024年 01月 05日 星期五 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8586ea3] 2024年 01月 06日 星期六 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8cbebcb] 2024年 01月 06日 星期六 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 51fc984] 2024年 01月 06日 星期六 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b1be676] 2024年 01月 06日 星期六 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2e562fc] 2024年 01月 06日 星期六 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9d30e60] 2024年 01月 07日 星期日 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5deb80c] 2024年 01月 07日 星期日 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 6f00ac0] 2024年 01月 07日 星期日 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d5cbd87] 2024年 01月 07日 星期日 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d2d1eac] 2024年 01月 07日 星期日 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5ce2187] 2024年 01月 08日 星期一 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1bb3f46] 2024年 01月 08日 星期一 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 400b4ba] 2024年 01月 08日 星期一 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c1d524e] 2024年 01月 08日 星期一 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 239cbba] 2024年 01月 08日 星期一 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 718c808] 2024年 01月 09日 星期二 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0580c9d] 2024年 01月 09日 星期二 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0ce911a] 2024年 01月 09日 星期二 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b66c7c4] 2024年 01月 09日 星期二 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1b79f4a] 2024年 01月 10日 星期三 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 879c9fa] 2024年 01月 10日 星期三 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9401f92] 2024年 01月 10日 星期三 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main cfb233b] 2024年 01月 10日 星期三 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1c0ed48] 2024年 01月 10日 星期三 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 22556e8] 2024年 01月 11日 星期四 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 68fe2f2] 2024年 01月 11日 星期四 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2f6de3e] 2024年 01月 11日 星期四 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 49deab3] 2024年 01月 11日 星期四 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 85c846b] 2024年 01月 11日 星期四 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8cbd538] 2024年 01月 12日 星期五 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7ee41bf] 2024年 01月 12日 星期五 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2ba748a] 2024年 01月 12日 星期五 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7dfba2f] 2024年 01月 12日 星期五 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 318da65] 2024年 01月 12日 星期五 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main dda6c46] 2024年 01月 13日 星期六 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main b464f71] 2024年 01月 13日 星期六 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1bf4037] 2024年 01月 13日 星期六 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7ef3f92] 2024年 01月 13日 星期六 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2a7381c] 2024年 01月 13日 星期六 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ad80aeb] 2024年 01月 14日 星期日 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-14 14:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+47.92.32.64 - - [14/Jan/2024 11:16:43] code 400, message Bad request syntax ("\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03ðüâp~\x127ÖLÒ\x98\x9eå\x90\x11\x98\x81Bõ9¿\x18SµÜÂÁï\x94N«¨\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+47.92.32.64 - - [14/Jan/2024 11:16:43] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03ðüâp~\x127ÖLÒ\x98\x9eå\x90\x11\x98\x81Bõ9¿\x18SµÜÂÁï\x94N«¨\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+8.142.87.162 - - [14/Jan/2024 12:00:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03ïÎUïÎZ\x7fj6ÇÛçª\x96w\x96\x8eóqsÁ')
+8.142.87.162 - - [14/Jan/2024 12:00:09] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03ïÎUïÎZ\x7fj6ÇÛçª\x96w\x96\x8eóqsÁ èp8òÝalBñY\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
