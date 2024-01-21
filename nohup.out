@@ -53675,3 +53675,105 @@ the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 162.216.150.173 - - [21/Jan/2024 11:50:35] "GET / HTTP/1.1" 200 -
 162.216.149.230 - - [21/Jan/2024 14:49:06] "GET / HTTP/1.1" 200 -
+ssh: connect to host github.com port 22: Connection timed out
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-21 21:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+ssh: connect to host github.com port 22: Connection timed out
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-21 21:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+123.160.221.143 - - [21/Jan/2024 17:10:42] code 400, message Bad request version ('À\x13À')
+123.160.221.143 - - [21/Jan/2024 17:10:42] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+123.160.221.143 - - [21/Jan/2024 17:10:52] "GET / HTTP/1.1" 200 -
+113.133.174.69 - - [21/Jan/2024 17:13:41] "GET / HTTP/1.1" 200 -
+36.40.79.254 - - [21/Jan/2024 17:13:43] "GET / HTTP/1.1" 200 -
+36.40.79.254 - - [21/Jan/2024 17:13:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.133.174.69 - - [21/Jan/2024 17:13:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.124.237.30 - - [21/Jan/2024 17:14:02] "GET / HTTP/1.1" 200 -
+125.124.237.30 - - [21/Jan/2024 17:14:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+61.153.187.41 - - [21/Jan/2024 17:14:04] "GET / HTTP/1.1" 200 -
+61.153.187.41 - - [21/Jan/2024 17:14:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+122.237.99.32 - - [21/Jan/2024 17:14:13] "GET / HTTP/1.1" 200 -
+122.237.99.32 - - [21/Jan/2024 17:14:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+115.239.226.72 - - [21/Jan/2024 17:14:21] "GET / HTTP/1.1" 200 -
+115.239.226.72 - - [21/Jan/2024 17:14:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.137.202 - - [21/Jan/2024 17:14:35] "GET / HTTP/1.1" 200 -
+113.142.137.202 - - [21/Jan/2024 17:14:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.124.125.91 - - [21/Jan/2024 17:14:38] "GET / HTTP/1.1" 200 -
+125.124.125.91 - - [21/Jan/2024 17:14:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+60.188.245.144 - - [21/Jan/2024 17:14:40] "GET / HTTP/1.1" 200 -
+60.188.245.144 - - [21/Jan/2024 17:14:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.41.184.66 - - [21/Jan/2024 17:15:06] "GET / HTTP/1.1" 200 -
+36.41.184.66 - - [21/Jan/2024 17:15:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.142.143.136 - - [21/Jan/2024 17:15:30] "GET / HTTP/1.1" 200 -
+113.142.143.136 - - [21/Jan/2024 17:15:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.40.78.26 - - [21/Jan/2024 17:15:37] "GET / HTTP/1.1" 200 -
+36.40.78.26 - - [21/Jan/2024 17:15:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.40.78.133 - - [21/Jan/2024 17:15:46] "GET / HTTP/1.1" 200 -
+36.40.78.133 - - [21/Jan/2024 17:15:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.40.65.60 - - [21/Jan/2024 17:15:52] "GET / HTTP/1.1" 200 -
+36.40.65.60 - - [21/Jan/2024 17:15:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.137.35.195 - - [21/Jan/2024 17:16:05] "GET / HTTP/1.1" 200 -
+113.137.35.195 - - [21/Jan/2024 17:16:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.137.42.20 - - [21/Jan/2024 17:16:15] "GET / HTTP/1.1" 200 -
+113.137.42.20 - - [21/Jan/2024 17:16:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+34.77.127.183 - - [21/Jan/2024 17:28:05] "GET / HTTP/1.1" 200 -
+47.92.73.109 - - [21/Jan/2024 18:42:18] "GET http://tool.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.33.185 - - [21/Jan/2024 18:42:18] "GET http://tool.ashen23.site/ HTTP/1.1" 200 -
+47.92.30.57 - - [21/Jan/2024 18:42:18] "[33mGET http://tool.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+113.215.188.160 - - [21/Jan/2024 18:50:39] "GET http://ashen23.site:8801/ HTTP/1.1" 200 -
+219.82.2.10 - - [21/Jan/2024 18:50:39] "GET http://ashen23.site/ HTTP/1.1" 200 -
+113.215.189.44 - - [21/Jan/2024 18:50:39] "[33mGET http://ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+113.215.189.51 - - [21/Jan/2024 18:54:04] "GET http://nas.ashen23.site:8801/ HTTP/1.1" 200 -
+113.215.189.48 - - [21/Jan/2024 18:54:04] "GET http://nas.ashen23.site/ HTTP/1.1" 200 -
+113.215.189.50 - - [21/Jan/2024 18:54:04] "[33mGET http://nas.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+113.215.189.51 - - [21/Jan/2024 18:55:17] "GET http://ip.ashen23.site:8801/ HTTP/1.1" 200 -
+113.215.188.160 - - [21/Jan/2024 18:55:17] "GET http://ip.ashen23.site/ HTTP/1.1" 200 -
+113.215.188.162 - - [21/Jan/2024 18:55:17] "[33mGET http://ip.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+113.215.188.159 - - [21/Jan/2024 18:59:32] "GET http://qb.ashen23.site:8801/ HTTP/1.1" 200 -
+113.215.189.50 - - [21/Jan/2024 18:59:32] "GET http://qb.ashen23.site/ HTTP/1.1" 200 -
+113.215.189.49 - - [21/Jan/2024 18:59:32] "[33mGET http://qb.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.78.102 - - [21/Jan/2024 19:03:01] "GET http://ai.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.33.185 - - [21/Jan/2024 19:03:01] "GET http://ai.ashen23.site/ HTTP/1.1" 200 -
+47.92.71.160 - - [21/Jan/2024 19:03:01] "[33mGET http://ai.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.72.15 - - [21/Jan/2024 19:04:48] "GET http://doc.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.30.214 - - [21/Jan/2024 19:04:48] "GET http://doc.ashen23.site/ HTTP/1.1" 200 -
+47.92.37.1 - - [21/Jan/2024 19:04:48] "[33mGET http://doc.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+219.82.2.10 - - [21/Jan/2024 19:06:09] "GET http://www.ashen23.site:8801/ HTTP/1.1" 200 -
+113.215.188.159 - - [21/Jan/2024 19:06:09] "GET http://www.ashen23.site/ HTTP/1.1" 200 -
+113.215.189.44 - - [21/Jan/2024 19:06:09] "[33mGET http://www.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
