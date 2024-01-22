@@ -53998,3 +53998,51 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+ssh: connect to host github.com port 22: Connection timed out
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-22 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+ssh: connect to host github.com port 22: Connection timed out
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-22 12:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+39.103.139.251 - - [22/Jan/2024 09:19:34] code 400, message Bad request version ("ÅìÔ\x11q¸7/\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+39.103.139.251 - - [22/Jan/2024 09:19:34] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¦7µ\x08ßÀ<'c\x81%+¢ÎÇ\x0b·Ü\x0c2¼UY"I¼\x1e\x02X\x97\x14Ð $;\x00d;6\x00\x98\x04.0À°wsRN\x17wiKg\x1e\x1eÅìÔ\x11q¸7/\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+39.103.139.251 - - [22/Jan/2024 09:19:34] "GET / HTTP/1.1" 200 -
+39.103.164.38 - - [22/Jan/2024 10:17:48] code 400, message Bad request version ("I\x94\x1b0UK§\x0eÞ\x13¤\x9dã\x96ç\x03¼\x91\x88\x0eèæk>§TÂ¢AA½º\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+39.103.164.38 - - [22/Jan/2024 10:17:48] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03YÍ_\x142ëùùé\x00³2\x16¿\x17\x8d¾t\x98ô\x02Ê\x148Ù\x16X\x85pl\x15Ô I\x94\x1b0UK§\x0eÞ\x13¤\x9dã\x96ç\x03¼\x91\x88\x0eèæk>§TÂ¢AA½º\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+39.103.164.38 - - [22/Jan/2024 10:17:48] "GET / HTTP/1.1" 200 -
