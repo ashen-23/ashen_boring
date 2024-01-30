@@ -56132,3 +56132,59 @@ with app.app_context(). See the documentation for more information.
 219.144.66.49 - - [31/Jan/2024 00:11:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 117.33.237.214 - - [31/Jan/2024 00:12:03] "GET / HTTP/1.1" 200 -
 117.33.237.214 - - [31/Jan/2024 00:12:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ssh: connect to host github.com port 22: Connection timed out
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-31 06:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+ssh: connect to host github.com port 22: Connection timed out
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-31 06:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+47.92.70.66 - - [31/Jan/2024 01:51:47] "GET http://www.iostools.site:8801/ HTTP/1.1" 200 -
+47.92.37.1 - - [31/Jan/2024 01:51:47] "GET http://www.iostools.site/ HTTP/1.1" 200 -
+47.92.77.114 - - [31/Jan/2024 01:51:47] "[33mGET http://www.iostools.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.77.114 - - [31/Jan/2024 01:56:42] "GET http://qb.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.72.15 - - [31/Jan/2024 01:56:42] "GET http://qb.ashen23.site/ HTTP/1.1" 200 -
+8.142.87.162 - - [31/Jan/2024 01:56:42] "[33mGET http://qb.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+8.142.104.65 - - [31/Jan/2024 02:01:04] "GET http://ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.32.64 - - [31/Jan/2024 02:01:04] "GET http://ashen23.site/ HTTP/1.1" 200 -
+47.92.72.15 - - [31/Jan/2024 02:01:04] "[33mGET http://ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+39.103.133.249 - - [31/Jan/2024 02:01:09] "GET http://iostools.site:8801/ HTTP/1.1" 200 -
+47.92.33.204 - - [31/Jan/2024 02:01:09] "GET http://iostools.site/ HTTP/1.1" 200 -
+47.92.78.77 - - [31/Jan/2024 02:01:09] "[33mGET http://iostools.site/favicon.ico HTTP/1.1[0m" 404 -
+78.128.114.22 - - [31/Jan/2024 04:37:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+78.128.114.22 - - [31/Jan/2024 04:37:43] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
