@@ -56188,3 +56188,298 @@ with app.app_context(). See the documentation for more information.
 47.92.78.77 - - [31/Jan/2024 02:01:09] "[33mGET http://iostools.site/favicon.ico HTTP/1.1[0m" 404 -
 78.128.114.22 - - [31/Jan/2024 04:37:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
 78.128.114.22 - - [31/Jan/2024 04:37:43] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+ssh: connect to host github.com port 22: Connection timed out
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-31 11:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+ssh: connect to host github.com port 22: Connection timed out
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+[main e68771a] 2024年 01月 14日 星期日 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main be4fc33] 2024年 01月 14日 星期日 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7df94a7] 2024年 01月 14日 星期日 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f69119e] 2024年 01月 15日 星期一 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a7be1d0] 2024年 01月 15日 星期一 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 89a6e7b] 2024年 01月 15日 星期一 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 27904ba] 2024年 01月 15日 星期一 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 78bf10d] 2024年 01月 15日 星期一 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 21bc11b] 2024年 01月 16日 星期二 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a54c215] 2024年 01月 16日 星期二 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0697a43] 2024年 01月 16日 星期二 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2666f9b] 2024年 01月 16日 星期二 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 79ebd37] 2024年 01月 16日 星期二 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3a3691f] 2024年 01月 17日 星期三 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9f97f37] 2024年 01月 17日 星期三 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 93ec7d9] 2024年 01月 17日 星期三 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f20c0b5] 2024年 01月 17日 星期三 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4cc5cd7] 2024年 01月 17日 星期三 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 20c7490] 2024年 01月 18日 星期四 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d28b088] 2024年 01月 18日 星期四 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 01ec8a1] 2024年 01月 18日 星期四 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2bb12ad] 2024年 01月 18日 星期四 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9ee8f8e] 2024年 01月 18日 星期四 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main db41164] 2024年 01月 19日 星期五 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f11cbd8] 2024年 01月 19日 星期五 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2b2d091] 2024年 01月 19日 星期五 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 19c9b0c] 2024年 01月 19日 星期五 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1a2bbdf] 2024年 01月 20日 星期六 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1230495] 2024年 01月 20日 星期六 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c933dde] 2024年 01月 20日 星期六 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main eaeae19] 2024年 01月 20日 星期六 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c470512] 2024年 01月 20日 星期六 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1502f85] 2024年 01月 21日 星期日 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main e09b37d] 2024年 01月 21日 星期日 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 23b060c] 2024年 01月 21日 星期日 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f77e5d2] 2024年 01月 21日 星期日 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4795b1a] 2024年 01月 21日 星期日 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main dbf72ac] 2024年 01月 22日 星期一 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1cb42fe] 2024年 01月 22日 星期一 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main aadb158] 2024年 01月 22日 星期一 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d1e2483] 2024年 01月 22日 星期一 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c462aec] 2024年 01月 22日 星期一 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main bb7199d] 2024年 01月 23日 星期二 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 136e017] 2024年 01月 23日 星期二 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8ea1e65] 2024年 01月 23日 星期二 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 11186e0] 2024年 01月 23日 星期二 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 01ee914] 2024年 01月 23日 星期二 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main a371158] 2024年 01月 24日 星期三 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1cd9a29] 2024年 01月 24日 星期三 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1e971fc] 2024年 01月 24日 星期三 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c16d981] 2024年 01月 24日 星期三 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f66ad1a] 2024年 01月 25日 星期四 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 842bfb3] 2024年 01月 25日 星期四 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ee9c822] 2024年 01月 25日 星期四 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 4f5d492] 2024年 01月 25日 星期四 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 7038145] 2024年 01月 25日 星期四 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 689bf48] 2024年 01月 26日 星期五 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 3ffab1b] 2024年 01月 26日 星期五 06:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 02d08a7] 2024年 01月 26日 星期五 11:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main bdc1783] 2024年 01月 26日 星期五 16:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 2937b78] 2024年 01月 26日 星期五 21:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1333ea1] 2024年 01月 27日 星期六 02:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ea84704] 2024年 01月 27日 星期六 07:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 60df278] 2024年 01月 27日 星期六 12:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d238f09] 2024年 01月 27日 星期六 17:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8debda2] 2024年 01月 27日 星期六 22:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 27fde51] 2024年 01月 28日 星期日 03:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 1d0b497] 2024年 01月 28日 星期日 08:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 8a16c1b] 2024年 01月 28日 星期日 13:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main dce95a5] 2024年 01月 28日 星期日 18:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main ea7d0ec] 2024年 01月 28日 星期日 23:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 778e71d] 2024年 01月 29日 星期一 04:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0e55c8a] 2024年 01月 29日 星期一 09:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d1e2957] 2024年 01月 29日 星期一 14:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 0e6b53f] 2024年 01月 29日 星期一 19:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main f264b95] 2024年 01月 30日 星期二 00:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main c4b3603] 2024年 01月 30日 星期二 05:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 9c56e6b] 2024年 01月 30日 星期二 10:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 91260d2] 2024年 01月 30日 星期二 15:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main 5d95c39] 2024年 01月 30日 星期二 20:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+[main d70bdd0] 2024年 01月 31日 星期三 01:27:50 CST
+ 1 file changed, 1 insertion(+)
+running...
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-01-31 11:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+223.113.128.171 - - [31/Jan/2024 11:13:07] "GET / HTTP/1.1" 200 -
+223.113.128.171 - - [31/Jan/2024 11:13:08] code 400, message Bad request version ('À\x13À')
+223.113.128.171 - - [31/Jan/2024 11:13:08] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03â\x02´:\x90PÊ\x84z@©\x8fýFï\x06-\x10Àº}\x82\x97Éë\x8dÌÃßø4O \\ú\x9c°×¶î\x01¤X\x18þÅÚ×KÌÌÇ\x06\x15û¶Þø\x17y\x8a÷o\x822\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+223.113.128.171 - - [31/Jan/2024 11:13:08] code 400, message Bad HTTP/0.9 request type ('t3')
+223.113.128.171 - - [31/Jan/2024 11:13:08] "[35m[1mt3 12.1.2[0m" HTTPStatus.BAD_REQUEST -
+52.81.185.110 - - [31/Jan/2024 11:14:22] "GET / HTTP/1.1" 200 -
+52.81.185.110 - - [31/Jan/2024 11:14:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+52.81.185.110 - - [31/Jan/2024 11:14:23] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+52.81.185.110 - - [31/Jan/2024 11:14:23] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+162.216.149.185 - - [31/Jan/2024 11:14:28] "GET / HTTP/1.1" 200 -
