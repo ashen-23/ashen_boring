@@ -56846,3 +56846,59 @@ RuntimeError: Working outside of application context.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   494530b..88db6d0  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-02-02 08:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+   88db6d0..bb7a2a3  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-02-02 08:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+45.135.232.28 - - [02/Feb/2024 04:20:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.135.232.28 - - [02/Feb/2024 04:20:21] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+106.14.222.126 - - [02/Feb/2024 04:54:52] "GET / HTTP/1.1" 200 -
+106.14.222.126 - - [02/Feb/2024 04:54:52] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+106.14.222.126 - - [02/Feb/2024 04:54:52] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+106.14.222.126 - - [02/Feb/2024 04:54:52] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+106.14.222.126 - - [02/Feb/2024 04:54:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+106.14.222.126 - - [02/Feb/2024 04:54:52] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+106.14.222.126 - - [02/Feb/2024 04:54:53] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+106.14.222.126 - - [02/Feb/2024 04:54:53] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+106.14.222.126 - - [02/Feb/2024 04:54:53] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+106.14.222.126 - - [02/Feb/2024 04:54:53] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+167.94.138.52 - - [02/Feb/2024 06:17:07] "GET / HTTP/1.1" 200 -
+167.94.138.52 - - [02/Feb/2024 06:17:08] code 505, message Invalid HTTP version (2.0)
+167.94.138.52 - - [02/Feb/2024 06:17:08] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.52 - - [02/Feb/2024 06:17:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+185.122.204.179 - - [02/Feb/2024 06:30:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.122.204.179 - - [02/Feb/2024 06:30:57] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
