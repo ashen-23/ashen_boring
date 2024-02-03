@@ -57368,3 +57368,59 @@ with app.app_context(). See the documentation for more information.
 36.40.72.19 - - [03/Feb/2024 09:19:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 117.34.120.115 - - [03/Feb/2024 09:20:22] "GET / HTTP/1.1" 200 -
 117.34.120.115 - - [03/Feb/2024 09:20:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+To github.com:ashen-23/ashen_boring.git
+   ae4b6d5..40e7ef7  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-02-03 14:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 40e7ef7967a26506849b8c775d30dcb49a58b577 but expected ae4b6d5943699e263975f9fdf734a763b46ebce5)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-02-03 14:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+113.215.189.67 - - [03/Feb/2024 10:38:12] "GET http://clash.ashen23.site:8801/ HTTP/1.1" 200 -
+113.215.189.68 - - [03/Feb/2024 10:38:12] "GET http://clash.ashen23.site/ HTTP/1.1" 200 -
+113.215.189.66 - - [03/Feb/2024 10:38:12] "[33mGET http://clash.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+113.215.189.66 - - [03/Feb/2024 10:38:24] "GET http://ai.ashen23.site:8801/ HTTP/1.1" 200 -
+113.215.189.63 - - [03/Feb/2024 10:38:24] "GET http://ai.ashen23.site/ HTTP/1.1" 200 -
+113.215.189.63 - - [03/Feb/2024 10:38:24] "[33mGET http://ai.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.31.57 - - [03/Feb/2024 10:42:48] "GET http://www.iostools.site:8801/ HTTP/1.1" 200 -
+47.92.30.57 - - [03/Feb/2024 10:42:48] "GET http://www.iostools.site/ HTTP/1.1" 200 -
+47.92.79.71 - - [03/Feb/2024 10:42:49] "[33mGET http://www.iostools.site/favicon.ico HTTP/1.1[0m" 404 -
+8.142.104.65 - - [03/Feb/2024 10:51:07] "GET http://docker.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.68.55 - - [03/Feb/2024 10:51:08] "GET http://docker.ashen23.site/ HTTP/1.1" 200 -
+47.92.37.1 - - [03/Feb/2024 10:51:08] "[33mGET http://docker.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+47.92.31.143 - - [03/Feb/2024 10:53:04] "GET http://tool.ashen23.site:8801/ HTTP/1.1" 200 -
+47.92.79.71 - - [03/Feb/2024 10:53:05] "GET http://tool.ashen23.site/ HTTP/1.1" 200 -
+47.92.78.126 - - [03/Feb/2024 10:53:05] "[33mGET http://tool.ashen23.site/favicon.ico HTTP/1.1[0m" 404 -
+69.234.213.116 - - [03/Feb/2024 14:13:49] code 400, message Bad request syntax ('333766643833656338616434363333643963363962386536653538383937393235613033653338636434')
+69.234.213.116 - - [03/Feb/2024 14:13:49] "[35m[1m333766643833656338616434363333643963363962386536653538383937393235613033653338636434[0m" HTTPStatus.BAD_REQUEST -
