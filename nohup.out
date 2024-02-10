@@ -59127,3 +59127,50 @@ This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 35.203.210.64 - - [10/Feb/2024 04:59:43] "GET / HTTP/1.1" 200 -
+To github.com:ashen-23/ashen_boring.git
+   f81e6a2..bddc77b  main -> main
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-02-10 11:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+To github.com:ashen-23/ashen_boring.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at bddc77b5c8863c744a9739eabd7db2fed464c3d3 but expected f81e6a2dd4b3c08846994a0e8027ffa7afc7d219)
+错误：无法推送一些引用到 'github.com:ashen-23/ashen_boring.git'
+Job "githubContribute (trigger: interval[5:00:00], next run at: 2024-02-10 11:27:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/root/Apps/ashen_boring/github.py", line 25, in githubContribute
+    return jsonify({"code": 0})
+  File "/usr/local/lib/python3.10/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+167.248.133.35 - - [10/Feb/2024 07:53:44] "GET / HTTP/1.1" 200 -
+167.248.133.35 - - [10/Feb/2024 07:53:45] code 505, message Invalid HTTP version (2.0)
+167.248.133.35 - - [10/Feb/2024 07:53:45] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.35 - - [10/Feb/2024 07:53:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+219.82.2.110 - - [10/Feb/2024 10:26:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03-µó¬\x88v\x907x\x01ç')
+219.82.2.110 - - [10/Feb/2024 10:26:03] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03-µó¬\x88v\x907x\x01ç\x1fcÌØ\x83Ë\x80\x7fãÝÿË¼¦«t\x00\x8cT\x98-\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
+47.92.78.77 - - [10/Feb/2024 10:38:35] code 400, message Bad request syntax ("\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03!ªéU\x8fòÿ\x7fÌ\x95Kw\x04]qdæÝo#¿\x94RU\x06\x04pHÎ%\x05K\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+47.92.78.77 - - [10/Feb/2024 10:38:35] "[35m[1m\x16\x03\x03\x01\x02\x01\x00\x00þ\x03\x03!ªéU\x8fòÿ\x7fÌ\x95Kw\x04]qdæÝo#¿\x94RU\x06\x04pHÎ%\x05K\x00\x00VÀ,À+À0À/\x00\x9f\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À[0m" HTTPStatus.BAD_REQUEST -
